@@ -10,3 +10,11 @@ theme:
 
 nav:
   - Home: index.md
+  - Lean Inseption: 
+      - Lean Inseption: pages/lean/lean.md
+      - Kick Off: pages/lean/kickoff.md
+      - Visão do Produto: pages/lean/visao.md
+      - É - Não é - Faz - Não faz: pages/lean/produto.md
+      - Objetivos do Produto: pages/lean/objetivos.md
+      - Personas: pages/lean/personas.md
+      - Jornada do Usuário: pages/lean/jornada.md
