@@ -20,16 +20,16 @@ O monitoramento de métricas e a implementação de práticas estruturadas foram
 
 ### Métricas Monitoradas  
 
-1. **Cobertura de Código**  
+**Cobertura de Código**  
    - Monitoramos a extensão em que o código-fonte foi testado, assegurando que os testes automatizados cobrissem cenários críticos e minimizassem a ocorrência de bugs não detectados.  
 
-2. **Duplicação de Código**  
+**Duplicação de Código**  
    - Identificamos e reduzimos trechos de código redundantes, promovendo manutenibilidade e eficiência no desenvolvimento.  
 
-3. **Vulnerabilidades e Bugs**  
+**Vulnerabilidades e Bugs**  
    - Avaliamos continuamente o código para detectar vulnerabilidades e erros, utilizando ferramentas de análise estática integradas com o SonarCloud.  
 
-4. **Integração com CI/CD**  
+**Integração com CI/CD**  
    - Configuramos pipelines de integração contínua para executar automaticamente as análises do SonarCloud, garantindo que problemas fossem detectados antes da fusão de branches.  
 
 ## Políticas de Código e Revisão  
