@@ -1,95 +1,39 @@
 # Metodologia de Trabalho da Equipe  
 
-## Introdução  
+# Metodologia de Trabalho da Equipe
 
-Para garantir a eficiência no desenvolvimento e a entrega de um produto de alta qualidade, nossa equipe adotou uma abordagem híbrida, combinando elementos do Scrum, Extreme Programming (XP), Kanban e práticas do PMBOK. Essa combinação nos permitiu adaptar metodologias consolidadas às necessidades específicas do projeto, promovendo organização, comunicação e melhoria contínua. A seguir, detalhamos as práticas utilizadas e sua aplicação no contexto do projeto.  
+Nossa equipe adotou uma metodologia híbrida, combinando elementos do Scrum, Extreme Programming (XP), Kanban e práticas do PMBOK, com o objetivo de garantir um desenvolvimento eficiente e a entrega de um produto de alta qualidade. Essa abordagem permitiu adaptar metodologias consolidadas às necessidades específicas do projeto, promovendo organização, comunicação e melhoria contínua.
 
----
+## Scrum
 
-## Framework Scrum  
+O Scrum foi utilizado para estruturar o trabalho em sprints, ciclos curtos de 1 a 2 semanas, nos quais metas específicas eram planejadas e entregues. Durante o planejamento do sprint, a equipe revisava o backlog do produto, priorizava tarefas e definia as metas a serem alcançadas. Reuniões diárias (standup meetings) eram realizadas para alinhar o progresso, identificar obstáculos e ajustar as prioridades, garantindo fluidez no trabalho. No final de cada sprint, realizava-se uma revisão com o cliente para demonstrar os resultados e obter feedback, enquanto retrospectivas eram conduzidas para identificar oportunidades de melhoria no processo.
 
-### 1. **Sprints**  
-- Ciclos de desenvolvimento curtos (1-2 semanas) nos quais metas específicas são planejadas e entregues.  
-- **Benefício:** Permite entregas incrementais e ajustes frequentes com base no feedback do cliente.  
+## Extreme Programming (XP)
 
-### 2. **Planejamento (Planning)**  
-- **Objetivo:** Definir as metas e tarefas para o próximo sprint.  
-- **Atividades:**  
-  - Revisão do backlog de produto.  
-  - Priorização e estimativa de tarefas (e.g., Planning Poker).  
-  - Seleção das tarefas para o sprint.  
-- **Frequência:** Primeira reunião de cada sprint.  
+Além das práticas do Scrum, adotamos elementos do XP, como a **programação em pares**, que promoveu o compartilhamento de conhecimento e aumentou a qualidade do código. A **integração contínua (CI/CD)** foi implementada para testar e integrar o código automaticamente, utilizando o **SonarCloud** para monitorar métricas de qualidade como cobertura de testes e duplicação de código. A **proximidade com o cliente** foi outra prática essencial, permitindo ajustes frequentes com base em feedbacks, o que garantiu o alinhamento do produto com as expectativas dos usuários. **Entregas contínuas** também foram realizadas, proporcionando incrementos regulares de valor ao cliente.
 
-### 3. **Review (Revisão do Sprint)**  
-- **Objetivo:** Apresentar as entregas do sprint ao cliente (PO) e obter feedback.  
-- **Atividades:**  
-  - Demonstração das funcionalidades desenvolvidas.  
-  - Ajuste do backlog com base no feedback recebido.  
+## Kanban
 
-### 4. **Retrospectiva**  
-- **Objetivo:** Identificar o que funcionou bem e o que pode ser melhorado.  
-- **Atividades:**  
-  - Reflexão sobre o sprint.  
-  - Definição de ações para melhorias contínuas.  
+Para visualizar o fluxo de trabalho e evitar gargalos, utilizamos o **Kanban**, representado por quadros no **ZenHub**, que mostravam o progresso das tarefas nas etapas de "Backlog", "Em Progresso", "Em Revisão" e "Concluído". Isso permitiu identificar rapidamente tarefas bloqueadas e priorizar atividades de maior impacto.
 
----
+## PMBOK
 
-## Práticas do Extreme Programming (XP)  
+O **PMBOK** complementou nossa abordagem ágil, trazendo práticas de gerenciamento de projetos para áreas como escopo, custo e riscos. O **escopo** foi cuidadosamente gerenciado pelos **Scrum Masters**, com acompanhamento do **Product Owner (PO)**, e os **riscos** foram monitorados semanalmente, com respostas planejadas para mitigar impactos potenciais. O **custo** do projeto foi avaliado regularmente, garantindo uma visão clara do orçamento ao longo do desenvolvimento.
 
-### 1. **Programação em Pares**  
-- **Descrição:** Dois desenvolvedores trabalham juntos, alternando entre os papéis de "Driver" e "Observer".  
-- **Benefício:** Melhoria na qualidade do código e compartilhamento de conhecimento.  
+## Ferramentas Utilizadas
 
-### 2. **Integração Contínua (CI/CD)**  
-- **Descrição:** Código integrado e testado continuamente, garantindo que esteja funcional e sem regressões.  
-- **Ferramenta:** SonarCloud para monitoramento de métricas de qualidade.  
+O uso de ferramentas específicas também foi essencial para o sucesso do projeto. O **SonarCloud** monitorou a qualidade do código, o **Jest** foi utilizado para testes automatizados, e o **ZenHub** facilitou o gerenciamento das tarefas. Essas ferramentas integraram-se ao nosso fluxo de trabalho, promovendo transparência, eficiência e colaboração.
 
-### 3. **Proximidade com o Usuário**  
-- **Descrição:** Envolvimento frequente do cliente no processo de desenvolvimento.  
-- **Benefício:** Garantia de alinhamento com as expectativas e necessidades do usuário final.  
+## Conclusão
 
-### 4. **Entrega Contínua**  
-- **Descrição:** Lançamento frequente de incrementos para entrega contínua de valor ao cliente.  
-
----
-
-## Kanban  
-
-### Uso do Quadro Kanban  
-- **Objetivo:** Visualizar o fluxo de trabalho e limitar tarefas em progresso para evitar gargalos.  
-- **Ferramenta:** ZenHub para gerenciar o fluxo das atividades.  
-- **Estrutura:** Colunas que representam os estágios do trabalho (e.g., Backlog, Em Progresso, Em Revisão, Concluído).  
-
----
-
-## PMBOK  
-
-### Gestão de Projetos  
-- **Descrição:** Integração das práticas do PMBOK para complementar a abordagem ágil.  
-- **Áreas de aplicação:**  
-  - **Escopo:** Gerenciado pelos Scrum Masters com feedback do PO.  
-  - **Riscos:** Monitoramento contínuo e planejamento de respostas a riscos identificados.  
-  - **Custo:** Análise semanal e final do custo total do projeto.  
-
----
-
-## Ferramentas Utilizadas  
-
-1. **SonarCloud:** Monitoramento de métricas de qualidade de código, como cobertura de testes e duplicação.  
-2. **Jira/ZenHub:** Organização e acompanhamento de tarefas e fluxos de trabalho.  
-3. **Jest:** Framework de testes automatizados para validação de funcionalidades.  
-
----
-
-## Conclusão  
-
-A combinação de Scrum, XP, Kanban e PMBOK nos proporcionou um processo de desenvolvimento ágil, bem estruturado e voltado à qualidade. As práticas descritas facilitaram a colaboração entre os membros da equipe, o alinhamento com as necessidades do cliente e a entrega contínua de valor, consolidando os objetivos do projeto e promovendo melhorias contínuas.  
+Em resumo, a combinação dessas metodologias e ferramentas possibilitou um processo de desenvolvimento ágil, bem estruturado e focado em qualidade. As práticas adotadas garantiram entregas contínuas, alinhamento com o cliente e melhoria constante, consolidando os objetivos do projeto e promovendo resultados sólidos e eficientes.
 
 ## Histórico de Versão  
 
 | Alteração               | Data       | Autor           |  
 |-------------------------|------------|-----------------|  
 | Criação do documento    | 08/12/2024 | Daniela Soares |  
+| Revisão do documento    | 08/12/2024 | Clara Marcelino |
 
 
 
