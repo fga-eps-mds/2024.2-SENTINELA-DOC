@@ -105,68 +105,27 @@ Esse modelo integrado reflete uma abordagem robusta para a qualidade, combinando
 
 ### Métricas para o produto
 
-O uso de métricas permite identificar subcaracterísticas associadas e avaliar a qualidade do produto. Essa análise também possibilita medir a produtividade do projeto, gerando resultados que influenciam as decisões de desenvolvimento. Com base nas métricas especificadas no SonarCloud e Q-Rapids, além dos dados coletados, foram definidos os valores mínimos aceitáveis para cada métrica no projeto Sentinela, conforme mostrado nas tabelas abaixo. Os dados referêntes a satisfação do usuário foram coletados a partir do [formulário](https://docs.google.com/forms/d/e/1FAIpQLSd1qZnT252QaJrbh8GwZZIOw2DFZUn0R2ZtrhHWqRdw0mqlhA/viewform) fornecido aos POs, que visa quantificar em escala de 1 a 5 qual o nível de satisfação do cliente quanto ao trabalho realizado e entregue pelo grupo Sentinela 2024/1, baseado nos modelos CSAT e NPS.
+O uso de métricas permite identificar subcaracterísticas associadas e avaliar a qualidade do produto. Essa análise também possibilita medir a produtividade do projeto, gerando resultados que influenciam as decisões de desenvolvimento. Com base nas métricas especificadas no SonarCloud e Q-Rapids, além dos dados coletados, foram definidos os valores mínimos aceitáveis para cada métrica no projeto Sentinela, conforme mostrado na tabela abaixo.
 
-#### Repositório do Frontend
 
-| Métrica                      | Valor referência | Valor alcançado ao final do projeto |
-| ---------------------------- | ---------------- | --------------- |
-| Complexity                   | até 10           | 9               |
-| Comment Lines Density (%)    | até 30%          | 1,9%            |
-| Duplicated Lines Density (%) | até 5%           | 7%              |
-| Coverage                     | acima de 80%     | 78,1%           |
-| Test Failures                | 0                | 0               |
-| Test Errors                  | 0                | 0               |
-| Security Rating              | 0 (A)            | 0 (A)           |
-| Satisfação do usuário        | acima de 3       | 5               |
+| Métrica                      | Descrição                                                                                                                                               |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Complexity**                | Mede a complexidade do código, geralmente baseada na quantidade de caminhos possíveis no código. Valores mais baixos indicam código mais simples e de fácil manutenção. A meta é manter a complexidade abaixo de 10 para facilitar a leitura e a manutenção do código. |
+| **Duplicated Lines Density (%)** | Mede a porcentagem de código duplicado no projeto. O código duplicado pode aumentar o esforço de manutenção e gerar inconsistências. A meta é que a densidade de linhas duplicadas não ultrapasse 5%, incentivando a reutilização de código e a eliminação de redundâncias. |
+| **Coverage**                  | Refere-se à porcentagem de código coberta por testes automatizados. Um valor acima de 80% é considerado ideal para garantir que a maioria do código seja testada, minimizando a chance de bugs não detectados. |
+| **Test Failures**             | Número de falhas nos testes automatizados. O objetivo é que não haja falhas nos testes (valor 0), indicando que o código está funcionando conforme o esperado e sem regressões. |
+| **Test Errors**               | Refere-se ao número de erros encontrados durante a execução dos testes, como falhas de configuração ou problemas inesperados. A meta é que o número de erros seja 0, garantindo que os testes sejam executados corretamente. |
+| **Security Rating**           | Classificação de segurança do código, geralmente em uma escala de A (melhor) a D (pior). A meta é que o rating de segurança seja A, indicando que o código está livre de vulnerabilidades críticas e segue boas práticas de segurança. |
+| **Satisfação do usuário**     | Mede a satisfação dos usuários finais com o produto, geralmente coletada por meio de pesquisas ou feedbacks diretos. A meta é que a satisfação esteja acima de 3 (em uma escala de 1 a 5), refletindo que os usuários estão satisfeitos com o funcionamento e a experiência do produto. |
 
-#### Repositório do Backend - Usuários
-
-| Métrica                      | Valor referência | Valor alcançado ao final do projeto  |
-| ---------------------------- | ---------------- | --------------- |
-| Complexity                   | até 10           | 3               |
-| Comment Lines Density (%)    | até 30%          | 4,7%            |
-| Duplicated Lines Density (%) | até 5%           | 0,0%            |
-| Coverage                     | acima de 80%     | 78,2            |
-| Test Failures                | 0                | 0               |
-| Test Errors                  | 0                | 0               |
-| Security Rating              | 0 (A)            | 0 (A)           |
-| Satisfação do usuário        | acima de 3       | 5               |
-
-#### Repositório do Backend - Financeiro
-
-| Métrica                      | Valor referência | Valor alcançado ao final do projeto  |
-| ---------------------------- | ---------------- | --------------- |
-| Complexity                   | até 10           | 1               |
-| Comment Lines Density (%)    | até 30%          | 5,5%            |
-| Duplicated Lines Density (%) | até 5%           | 0,0%            |
-| Coverage                     | acima de 80%     | 86,5%           |
-| Test Failures                | 0                | 0               |
-| Test Errors                  | 0                | 0               |
-| Security Rating              | 0 (A)            | 0 (A)           |
-| Satisfação do usuário        | acima de 3       | 5               |
-
-#### Repositório do Backend - Benefícios
-
-| Métrica                      | Valor referência | Valor alcançado ao final do projeto  |
-| ---------------------------- | ---------------- | --------------- |
-| Complexity                   | até 10           | 2               |
-| Comment Lines Density (%)    | até 30%          | 4,7%            |
-| Duplicated Lines Density (%) | até 5%           | 0,0%            |
-| Coverage                     | acima de 80%     | 78%             |
-| Test Failures                | 0                | 0               |
-| Test Errors                  | 0                | 0               |
-| Security Rating              | 0 (A)            | 1 (E)           |
-| Satisfação do usuário        | acima de 3       | 5               |
 
 ## Histórico de Versões
 
 | Alteração                    | Data       | Autor           |
 | ---------------------------- | ---------- | --------------- |
-| Criação do documento         | 28/07/24   | Ingrid Carvalho |
-| Atualizações sobre o sonar   | 31/08/2024 | Ingrid Carvalho |
-| Atualizações com as métricas | 08/09/2024 | Ingrid Carvalho |
-| Revisão                      | 08/09/2024 | Sara Campos     |
+| Criação do documento         | 08/12/2024   | Daniela Soares |
+| Revisão do documento         | 08/12/2024  | Clara Marcelino |
+
 
 ## Referências
 
