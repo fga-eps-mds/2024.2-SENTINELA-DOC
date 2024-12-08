@@ -85,13 +85,6 @@ Este projeto faz parte das disciplinas Métodos de Desenvolvimento de Software e
   </div>
 
   <div  style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2em">
-    <a href="https://github.com/Marcos2608" target="_blank" style="width: 200px; height: 200px">
-      <img style="border-radius: 50%; border: 3px solid #795649" src="https://avatars.githubusercontent.com/Marcos2608?v=4"/>
-    </a>
-    <label>Marcos Antonio</label>
-  </div>
-
-  <div  style="display: flex; flex-direction: column; align-items: center; margin-bottom: 2em">
     <a href="https://github.com/rodrigoFAmaral" target="_blank" style="width: 200px; height: 200px">
       <img style="border-radius: 50%; border: 3px solid #795649" src="https://avatars.githubusercontent.com/rodrigoFAmaral?v=4"/>
     </a>
