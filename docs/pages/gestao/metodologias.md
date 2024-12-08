@@ -91,3 +91,10 @@ A combinação de Scrum, XP, Kanban e PMBOK nos proporcionou um processo de dese
 |-------------------------|------------|-----------------|  
 | Criação do documento    | 08/12/2024 | Daniela Soares |  
 
+
+
+## Referências
+
+[Scrum: Como fazer mais em menos tempo](https://orcestra.com.br/2020/06/06/scrum-como-fazer-mais-em-menos-tempo/?gad_source=1&gclid=CjwKCAjw6JS3BhBAEiwAO9waF1QmvKD0d5RGdt0TxxIxM8wP_k4xo6Wtz4Mpx77qtBOFNqZfArqxvhoC1ycQAvD_BwE). Acessado em 08/12/2024.
+
+[Práticas em XP: Extreme Programming](https://www.devmedia.com.br/praticas-em-xp-extreme-programming/29330). Acessado em 08/12/2024.
