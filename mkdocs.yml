@@ -20,6 +20,7 @@ nav:
       - Gráfico de Gantt: pages/produto/grafico-gantt.md
       - Roadmap: pages/produto/roadmap.md
       - Documento de Arquitetura: pages/produto/documento-arquitetura.md
+      - Mapa de rotas: pages/produto/mapa-rotas.md
   - Gestão de Riscos e Recursos:
       - Custo: pages/gestao/custo.md
       - Gestão de risco: pages/gestao/risco.md

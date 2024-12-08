@@ -1,4 +1,4 @@
-# Introdução
+# Mapa de Rotas do Projeto
 A tabela abaixo descreve as rotas configuradas em um sistema Node.js. Cada rota define o método HTTP, o endpoint (URI) e a função ou controlador responsável por executar a lógica associada. Essa configuração é comum em frameworks como Express.js.
 
 
