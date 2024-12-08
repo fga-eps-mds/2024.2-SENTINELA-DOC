@@ -28,7 +28,7 @@ Em reunião, a dinâmica de Visão do Produto foi apresentada para o cliente e g
 
 O objetivo neste momento foi, a partir do quadro criado no semestre 2024/1, validar o que havia sido levantado, além de corrigir possíveis erros, tentar deixar a frase mais clara, adicionar o que fosse necessário e organizar os card. 
 
-Por ser o primeiro contato dos estudantes com o produto, não foi possivel validar toda a visão do produto, foi realizada no dia 04/11/24 uma outra reunião  com o POs Matheus Amaral e Davi Mendonça, onde eles nos ajudam a validar o restante do quadro de visão do produto.
+Por ser o primeiro contato dos estudantes com o produto, não foi possivel validar toda a visão do produto, foi realizada no dia 08/11/24 uma outra reunião  com o POs Matheus Amaral e Davi Mendonça, onde eles nos ajudam a validar o restante do quadro de visão do produto.
 
 Como resultado dessa reunião, conseguimos o seguinte quadro de Visão do Produto: 
 
