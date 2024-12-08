@@ -1,7 +1,5 @@
 # Metodologia de Trabalho da Equipe  
 
-# Metodologia de Trabalho da Equipe
-
 Nossa equipe adotou uma metodologia híbrida, combinando elementos do Scrum, Extreme Programming (XP), Kanban e práticas do PMBOK, com o objetivo de garantir um desenvolvimento eficiente e a entrega de um produto de alta qualidade. Essa abordagem permitiu adaptar metodologias consolidadas às necessidades específicas do projeto, promovendo organização, comunicação e melhoria contínua.
 
 ## Scrum
