@@ -1,6 +1,6 @@
 # Gestão de Qualidade
 
-## Itrodução
+## Introdução
 
 A gestão da qualidade é um elemento fundamental no desenvolvimento de produtos e serviços, sendo especialmente relevante no contexto do desenvolvimento de software. Segundo a ISO 25010, a qualidade de um produto de software é mensurada pelo grau em que ele atende aos requisitos de seus usuários, oferecendo valor e confiabilidade. Esses requisitos abrangem características como funcionalidade, desempenho, segurança e manutenibilidade, entre outras, e são organizados em um modelo de qualidade que as categoriza em atributos principais e suas respectivas subcaracterísticas.
 
@@ -32,19 +32,16 @@ O monitoramento de métricas e a implementação de práticas estruturadas foram
 4. **Integração com CI/CD**  
    - Configuramos pipelines de integração contínua para executar automaticamente as análises do SonarCloud, garantindo que problemas fossem detectados antes da fusão de branches.  
 
-5. **Alertas e Relatórios**  
-   - Estabelecemos thresholds para alertas automáticos e configuramos a geração periódica de relatórios, possibilitando o acompanhamento detalhado das métricas e ações corretivas.  
-
 ## Políticas de Código e Revisão  
 
-1. **Pull Requests e Code Review**  
+**Pull Requests e Code Review**  
    - Implementamos um processo rigoroso de revisão de código, com melhores práticas que asseguraram qualidade e aderência aos padrões.  
 
-2. **Padrões de Codificação**  
+**Padrões de Codificação**  
    - Adotamos ferramentas para verificar e reforçar regras de codificação, promovendo uniformidade e clareza no código-fonte.  
 
-3. **Merge Guidelines**  
-   - Definimos critérios claros para a fusão de branches, priorizando código revisado e aprovado, minimizando riscos durante o deploy.  
+**Merge Guidelines**  
+   - Só vai ser mergeado os prs que tiverem aprovação e passarem na validação de CI/CD.
 
 Essas práticas integradas garantiram um desenvolvimento contínuo e alinhado com os objetivos de qualidade, resultando em um produto robusto, seguro e com alto nível de confiabilidade.  
 
@@ -53,22 +50,22 @@ Essas práticas integradas garantiram um desenvolvimento contínuo e alinhado co
 
 Para garantir a qualidade e eficiência no desenvolvimento, foram utilizadas ferramentas robustas de teste e gerenciamento que se complementam, proporcionando um ambiente de trabalho estruturado e produtivo.
 
-### 1. Jest
+**Jest**
 - Framework completo para testes em JavaScript, amplamente utilizado para testes de unidade, integração e ponta a ponta.
 - Suporte a **mocks** e **snapshots**, permitindo simulações precisas de dependências e verificações de consistência de saída.
 - Interface intuitiva, que facilita a configuração e execução de testes, acelerando o ciclo de desenvolvimento.
 
-### 2. Vitest
+**Vitest**
 - Framework leve e rápido, projetado para o ecossistema JavaScript moderno, com foco em integração com o **Vite**.
 - Compatível com **TypeScript** e módulos **ESM**, garantindo flexibilidade no desenvolvimento de aplicações front-end.
 - Ideal para cenários que exigem performance otimizada em testes.
 
-### 3. SonarCloud
+**SonarCloud**
 - Plataforma de análise de código que identifica **bugs**, **vulnerabilidades** e **code smells**, promovendo a segurança e manutenibilidade do projeto.
 - Suporte a diversas linguagens de programação e integração direta com pipelines de **CI/CD**, assegurando monitoramento contínuo da qualidade.
 - Relatórios detalhados e visualizações gráficas que facilitam a identificação e resolução de problemas no código.
 
-### 4. ZenHub
+**ZenHub**
 - Ferramenta de gerenciamento de projetos integrada ao **GitHub**, permitindo um fluxo de trabalho centralizado e eficiente.
 - Recursos como **quadros Kanban** e **relatórios de produtividade** possibilitam uma visão clara do progresso do projeto e o acompanhamento de tarefas.
 - Facilita a comunicação entre equipes e a organização de backlog, assegurando o alinhamento com os objetivos do projeto.
@@ -81,15 +78,15 @@ Essas ferramentas foram fundamentais para implementar um processo de desenvolvim
 O modelo de qualidade do Q-Rapids combina objetivos estratégicos e científicos para melhorar a qualidade do software e otimizar o ciclo de vida de desenvolvimento. Segundo o projeto Q-Rapids (2024), os objetivos estratégicos gerais (GO1-GO3) concentram-se em melhorar os níveis de qualidade do software, aumentar a produtividade e reduzir o tempo de lançamento no mercado. Esses objetivos são desdobrados em objetivos científicos (SO1-SO4) que detalham ações práticas e técnicas para alcançar os resultados desejados.  
 
 ### Objetivos Estratégicos Gerais (GO1-GO3)  
-1. **Melhorar os níveis de qualidade do software**: Garantir que os produtos entregues atendam aos requisitos técnicos e superem as expectativas dos usuários.  
-2. **Aumentar a produtividade no ciclo de vida do software**: Otimizar processos para reduzir desperdícios e acelerar a entrega de valor.  
-3. **Reduzir o tempo de lançamento do software no mercado**: Minimizar prazos para lançamento de novas funcionalidades e produtos completos, mantendo a qualidade.  
+**Melhorar os níveis de qualidade do software**: Garantir que os produtos entregues atendam aos requisitos técnicos e superem as expectativas dos usuários.  
+**Aumentar a produtividade no ciclo de vida do software**: Otimizar processos para reduzir desperdícios e acelerar a entrega de valor.  
+**Reduzir o tempo de lançamento do software no mercado**: Minimizar prazos para lançamento de novas funcionalidades e produtos completos, mantendo a qualidade.  
 
 ### Objetivos Científicos (SO1-SO4)  
-1. **Coletar e analisar dados de tempo de execução e de tempo de design**: Integrar informações de diferentes etapas do desenvolvimento para obter uma visão abrangente do desempenho.  
-2. **Definir o ciclo de vida do software integrando requisitos de qualidade e funcionais**: Promover um alinhamento claro entre os aspectos técnicos e as necessidades dos usuários.  
-3. **Elaborar indicadores-chave estratégicos (KPIs)**: Permitir que os tomadores de decisão gerenciem o desenvolvimento com base em dados precisos.  
-4. **Fornecer suporte de ferramentas**: Implementar soluções, como o SonarCloud, que facilitem um ciclo de vida voltado à qualidade.  
+**Coletar e analisar dados de tempo de execução e de tempo de design**: Integrar informações de diferentes etapas do desenvolvimento para obter uma visão abrangente do desempenho.  
+**Definir o ciclo de vida do software integrando requisitos de qualidade e funcionais**: Promover um alinhamento claro entre os aspectos técnicos e as necessidades dos usuários.  
+**Elaborar indicadores-chave estratégicos (KPIs)**: Permitir que os tomadores de decisão gerenciem o desenvolvimento com base em dados precisos.  
+**Fornecer suporte de ferramentas**: Implementar soluções, como o SonarCloud, que facilitem um ciclo de vida voltado à qualidade.  
 
 ### Fatores e Métricas de Qualidade  
 Os fatores de qualidade, como manutenibilidade, confiabilidade, usabilidade e eficiência, são pilares para avaliar o sucesso do produto, do processo e da organização. As métricas associadas fornecem dados quantitativos que:  
@@ -131,4 +128,4 @@ O uso de métricas permite identificar subcaracterísticas associadas e avaliar 
 
 [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 
-[Q-rapids](https://www.q-rapids.eu/about)
+[Q-rapids](https://github.com/q-rapids)
