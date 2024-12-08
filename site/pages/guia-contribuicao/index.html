@@ -220,9 +220,40 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Guia de Contribuição
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Guia de Contribuição
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -636,6 +667,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -649,6 +695,34 @@
 
 
 <h1 id="guia-de-contribuicao">Guia de Contribuição</h1>
+<p>Este é o guia de contribuição para o projeto Sentinela, produzido pelos alunos de 2024.2. Este guia cobre os repositórios <a href="https://github.com/fga-eps-mds/2024.2-SENTINELA-BACKEND-USUARIOS.git">Usuários</a>, <a href="https://github.com/fga-eps-mds/2024.2-SENTINELA-BACKEND-BENEFICIOS.git">Benefícios</a>, <a href="https://github.com/fga-eps-mds/2024.2-SENTINELA-BACKEND-FINANCEIRO.git">Financeiro</a> e <a href="https://github.com/fga-eps-mds/2024.2-SENTINELA-FRONT.git">Front-End</a>. O objetivo deste documento é estabelecer um padrão claro e consistente para todas as contribuições feitas ao projeto, garantindo qualidade, organização e facilidade de colaboração entre os participantes.</p>
+<p>As contribuições ao projeto devem ser iniciadas a partir das issues disponíveis no repositório de documentação, que podem ser acessadas por meio deste <a href="https://github.com/fga-eps-mds/2024.2-SENTINELA-DOC/issues">link</a>. Antes de começar a trabalhar em uma issue, é importante entender e seguir as diretrizes descritas neste guia.</p>
+<p>Para gerenciar o desenvolvimento do projeto, utilizamos o <strong>Git Flow</strong>. Este modelo organiza as branches de forma a separar o desenvolvimento contínuo do código e as versões estáveis. A branch principal, <strong>master</strong>, contém sempre as versões mais estáveis do código e deve ser utilizada apenas para o lançamento de novas versões do sistema.</p>
+<p>As branches criadas para desenvolvimento devem seguir um padrão específico. O nome de cada branch deve conter o número da issue associada, seguido por uma descrição curta e significativa do problema ou funcionalidade a ser implementada. Por exemplo, uma branch para a issue número 42 sobre a implementação de login social poderia ser nomeada como <code>42-login-social</code>. Seguir esse padrão ajuda na identificação rápida do propósito de cada branch e melhora a organização do repositório.</p>
+<p>No que diz respeito aos commits, é fundamental seguir um formato padronizado para manter a consistência e a clareza do histórico de alterações. Cada commit deve começar com um label que descreve o tipo de alteração realizada, seguindo as labels dos <a href="https://www.conventionalcommits.org/en/v1.0.0/">Conventional Commits</a> . As principais labels são <code>feat</code> para novas funcionalidades, <code>fix</code> para correções de bugs, <code>docs</code> para alterações na documentação, e <code>test</code> para adição ou modificação de testes. Após o label, deve ser indicado o número da issue relacionada entre colchetes, seguido por uma mensagem curta e clara que descreva a alteração. Por exemplo: <code>[feat:42] - Adiciona funcionalidade de login social</code>. Esse padrão facilita a rastreabilidade das mudanças e a compreensão do trabalho realizado.</p>
+<p>Os Pull Requests (PRs) são uma etapa crucial no fluxo de trabalho e devem ser submetidos seguindo o template oficial do repositório. No início do PR, deve ser indicada a issue associada usando a seguinte estrutura: <code>**Issue:** closes #X</code>, onde <code>#X</code> é o número da issue correspondente. Em seguida, o PR deve conter uma seção chamada "Descrição", onde o autor explica detalhadamente as mudanças realizadas e como elas se relacionam com a issue associada. Essa descrição é essencial para que os revisores compreendam o escopo do trabalho e avaliem a qualidade e a relevância das alterações.</p>
+<p>Para garantir a aceitação de um Pull Request, é necessário cumprir alguns requisitos. O PR deve ter um título descritivo e sucinto, um responsável atribuído como <em>Assignee</em>, um revisor designado como <em>Reviewer</em>, e rótulos (<em>Labels</em>) que identifiquem o tipo de alteração ou o estágio do PR. Além disso, a descrição do PR deve estar completa, seguindo o template descrito acima, e deve incluir a referência clara à issue associada. Somente PRs que tenham passado pelo processo de Integração Contínua (CI) e tenham sido revisados minuciosamente pelo responsável designado serão aceitos. Esse processo garante que o código enviado ao repositório esteja alinhado com os padrões de qualidade do projeto e não introduza falhas ou inconsistências.</p>
+<h3 id="historico-de-versoes"><strong>Histórico de Versões</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Versão</strong></th>
+<th><strong>Nome da Versão</strong></th>
+<th><strong>Data</strong></th>
+<th><strong>Responsável</strong></th>
+<th><strong>Descrição/Alterações</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>07/12/2024</td>
+<td>Clara Marcelino</td>
+<td>Criação do documento</td>
+</tr>
+</tbody>
+</table>
 
               
             </article>
