@@ -25,9 +25,8 @@ A tabela abaixo apresenta as histórias de usuário relacionadas à gestão de d
 |                                        | Como administrador, gostaria de gerar um relatório com todos os patrimônios cadastrados.                     | 8          |
 
 
-## Histórico de Versões
+### **Histórico de Versões**
 
-| Alteração                                                                    | Data     | Autor       |
-| ---------------------------------------------------------------------------- | -------- | ----------- |
-| Criação do documento                                                         | 08/12/2024 | Daniela Soares |
-
+| **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
+|------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
+|   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento                                     |
