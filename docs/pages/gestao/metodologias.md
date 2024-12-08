@@ -22,9 +22,6 @@ O **PMBOK** complementou nossa abordagem ágil, trazendo práticas de gerenciame
 
 O uso de ferramentas específicas também foi essencial para o sucesso do projeto. O **SonarCloud** monitorou a qualidade do código, o **Jest** foi utilizado para testes automatizados, e o **ZenHub** facilitou o gerenciamento das tarefas. Essas ferramentas integraram-se ao nosso fluxo de trabalho, promovendo transparência, eficiência e colaboração.
 
-## Conclusão
-
-Em resumo, a combinação dessas metodologias e ferramentas possibilitou um processo de desenvolvimento ágil, bem estruturado e focado em qualidade. As práticas adotadas garantiram entregas contínuas, alinhamento com o cliente e melhoria constante, consolidando os objetivos do projeto e promovendo resultados sólidos e eficientes.
 
 ## Histórico de Versão  
 
