@@ -99,3 +99,9 @@ Este projeto faz parte das disciplinas Métodos de Desenvolvimento de Software e
   </div>
 
 </div>
+
+### **Histórico de Versões**
+
+| **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
+|------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
+|   1.0      | Criação do documento    | 11/11/2024    | Clara Marcelino         | Criação inicial do projeto e da página inicial.          |
