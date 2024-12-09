@@ -291,52 +291,41 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Backlog Inicial
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Backlog Inicial
       </a>
       
-    </li>
-  
+        
 
-            
-          
-            
-              
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
   
   
   
-    <li class="md-nav__item">
-      <a href="../historias-usuarios/" class="md-nav__link">
-        Histórias de Usuários
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
+    
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
   
-    <li class="md-nav__item">
-      <a href="../grafico-gantt/" class="md-nav__link">
-        Gráfico de Gantt
-      </a>
-    </li>
+</li>
+      
+    </ul>
   
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../roadmap/" class="md-nav__link">
-        Roadmap
-      </a>
+</nav>
+      
     </li>
   
 
@@ -638,6 +627,21 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -651,6 +655,108 @@
 
 
 <h1 id="backlog-inicial">Backlog Inicial</h1>
+<p>O backlog do produto foi definido a partir do sequenciador instanciado durante o Lean Inception. Como pode ser visto abaixo: 
+<img alt="backlog" src="../image-2.png" /></p>
+<p>Com o sequenciador em mãos, o time se reuniu e começou a detalhar todas as funcionalidades a nível de Histórias de Usuários, que viriam a compor o Backlog do Produto. Na imagem abaixo é possível ver que as histórias foram instanciadas a partir das funcionalidades do MVP.</p>
+<p><img alt="historias" src="../image-1.png" /></p>
+<p>A tabela abaixo apresenta as histórias de usuário relacionadas à gestão de dados, importação de extratos financeiros, solicitação de benefícios e gestão de patrimônio, com seus respectivos pontos de complexidade.</p>
+<table>
+<thead>
+<tr>
+<th><strong>Categoria</strong></th>
+<th><strong>História de Usuário</strong></th>
+<th><strong>Pontos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Visualizar dados sobre os sindicalizados através de dashboards (melhoria)</strong></td>
+<td>Como um Admin, quero acessar dashboards com informações sobre os sindicalizados (ex.: quantidade por categoria, idade), para ter uma visão geral.</td>
+<td>21</td>
+</tr>
+<tr>
+<td></td>
+<td>Como um Admin, quero filtrar dados no dashboard (ex.: por data ou localização), para encontrar informações relevantes rapidamente.</td>
+<td>8</td>
+</tr>
+<tr>
+<td><strong>Importar extrato do BRB para o sistema e filtrar o relatório de entradas e saídas por mês</strong></td>
+<td>Como administrador gostaria de tratar os dados vindos da consulta, para inseri-los no banco de dados.</td>
+<td>21</td>
+</tr>
+<tr>
+<td></td>
+<td>Como administrador gostaria de importar dados do BRB para manter o sistema atualizado.</td>
+<td>21</td>
+</tr>
+<tr>
+<td></td>
+<td>Como administrador gostaria de gerar um relatório com base nos dados importados do BRB.</td>
+<td>21</td>
+</tr>
+<tr>
+<td><strong>Solicitar benefícios</strong></td>
+<td>Como afiliado gostaria de selecionar benefícios dentre uma lista para solicitar vínculo.</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>Como administrador, gostaria de ter acesso a todos os benefícios cadastrados e avaliar cada pedido.</td>
+<td>3</td>
+</tr>
+<tr>
+<td><strong>Importar arquivo retorno do BRB</strong></td>
+<td>Como administrador, gostaria de tratar o arquivo retorno do BRB, para importá-lo em nosso banco de dados.</td>
+<td>21</td>
+</tr>
+<tr>
+<td></td>
+<td>Como administrador, gostaria de importar o arquivo de retorno tratado no Banco de dados.</td>
+<td>8</td>
+</tr>
+<tr>
+<td></td>
+<td>Como administrador, gostaria de um relatório com base nesses arquivos retornos.</td>
+<td>21</td>
+</tr>
+<tr>
+<td><strong>Gerir patrimônio</strong></td>
+<td>Como administrador, gostaria de cadastrar, visualizar, editar e deletar os patrimônios.</td>
+<td>8</td>
+</tr>
+<tr>
+<td></td>
+<td>Como administrador, gostaria que houvesse uma área específica do site para gerir os patrimônios cadastrados.</td>
+<td>5</td>
+</tr>
+<tr>
+<td></td>
+<td>Como administrador, gostaria de gerar um relatório com todos os patrimônios cadastrados.</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<h3 id="historico-de-versoes"><strong>Histórico de Versões</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Versão</strong></th>
+<th><strong>Nome da Versão</strong></th>
+<th><strong>Data</strong></th>
+<th><strong>Responsável</strong></th>
+<th><strong>Descrição/Alterações</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>08/12/2024</td>
+<td>Daniela Soares</td>
+<td>Criação do documento</td>
+</tr>
+</tbody>
+</table>
 
               
             </article>
@@ -682,13 +788,13 @@
       
       
         
-        <a href="../historias-usuarios/" class="md-footer__link md-footer__link--next" aria-label="Next: Histórias de Usuários" rel="next">
+        <a href="../documento-arquitetura/" class="md-footer__link md-footer__link--next" aria-label="Next: Documento de Arquitetura" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Histórias de Usuários
+              Documento de Arquitetura
             </div>
           </div>
           <div class="md-footer__button md-icon">

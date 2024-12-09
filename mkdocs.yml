@@ -16,9 +16,6 @@ nav:
       - Visão do Produto: pages/produto/visao-produto.md
       - Canvas MVP: pages/produto/canvas-mvp.md
       - Backlog Inicial: pages/produto/backlog-inicial.md
-      - Histórias de Usuários: pages/produto/historias-usuarios.md
-      - Gráfico de Gantt: pages/produto/grafico-gantt.md
-      - Roadmap: pages/produto/roadmap.md
       - Documento de Arquitetura: pages/produto/documento-arquitetura.md
       - Mapa de rotas: pages/produto/mapa-rotas.md
   - Gestão de Riscos e Recursos:
