@@ -11,7 +11,7 @@ Abaixo é possível visualizar o [protótipo navegável](https://www.figma.com/p
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=0-1&t=a1GKwNGzlmUuLkIO-1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FkJgE4ThZiTpMIufCMTbbCI%2FProt%25C3%25B3tipos%3Fnode-id%3D2-6196%26node-type%3DFRAME%26t%3DS46mvZirzbd6VvTS-1%26scaling%3Dmin-zoom%26content-scaling%3Dfixed%26page-id%3D0%253A1" allowfullscreen></iframe>
 
 Novas telas propostas:
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5421-456&embed-host=share" allowfullscreen></iframe>
