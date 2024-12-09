@@ -1,5 +1,4 @@
 # Gestão de Riscos
-# Gestão de Qualidade
 
 ## Introdução
 
@@ -85,11 +84,9 @@ O grau dos riscos é definido pela multiplicação da probabilidade de ocorrênc
 As classificações de risco foram definidas da seguinte forma:
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTIWTP32-_G_ZJZO-ROT521elq8402TuAGecWtndGEyPl-Snp3Guuzm3xfCpdQdRNs6yYKPEg6Xy-NL/pubhtml?gid=0&single=true" width="100%" height="200px"></iframe>
 
-
-
 ## Quadro de Riscos
 A respeito do monitoramento e gerenciamento de riscos, os riscos estão mapeados rigorosamente (e pontuados) de acordo com a tabela abaixo:
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTIWTP32-_G_ZJZO-ROT521elq8402TuAGecWtndGEyPl-Snp3Guuzm3xfCpdQdRNs6yYKPEg6Xy-NL/pubhtml?gid=1347992166&single=true" width="100%" height="200px"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTIWTP32-_G_ZJZO-ROT521elq8402TuAGecWtndGEyPl-Snp3Guuzm3xfCpdQdRNs6yYKPEg6Xy-NL/pubhtml?gid=1347992166&single=true" width="100%" height="600px"></iframe>
 
 ## Histórico de Versão
 | Alteração                    | Data       | Autor           |
