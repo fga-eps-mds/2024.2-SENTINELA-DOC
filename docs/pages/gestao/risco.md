@@ -34,7 +34,7 @@ O gerenciamento de risco em um projeto de software é o processo de identificar,
 
 | **Riscos**                                    | **Problema**                                | **Solução**                         |
 |----------------------------------------------|---------------------------------------------|-------------------------------------|
-| **Falta de apoio dos interessados no projeto**         | Pouco envolvimento e desmotivação          | Manter comunicação constante e engajar interessados |
+| **Falta de apoio dos interessados no projeto**         | Pouco envolvimento e desmotivação          | Manter comunicação constante e engajar interessados. A fim de mitigar esse problema, nós promovemos um encontro presencial com todos os membros, que pode ser visualizado [nessa página](../equipe/integracao.md) |
 | **Falha de comunicação**                    | Informações são perdidas ou mal interpretadas | Estabelecer canais e práticas de comunicação claros |
 | **Conflitos entre desenvolvedores**         | Equipe desmotivada e pouco produtiva       | Promover mediação e sessões de feedback e trabalhar a união da equipe |
 | **Falta de alinhamento com objetivos da organização**      | Projeto perde foco e direção               | Reavaliar requisitos e garantir alinhamento estratégico |
@@ -95,4 +95,4 @@ A respeito do monitoramento e gerenciamento de riscos, os riscos estão mapeados
 | Alteração                    | Data       | Autor           |
 | ---------------------------- | ---------- | --------------- |
 | Criação do documento         | 08/12/2024   | Guilherme Lima |
-| Revisão do documento         | 08/12/2024  |  |
+| Revisão do documento         | 09/12/2024  | Clara Marcelino |
