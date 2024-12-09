@@ -1052,7 +1052,7 @@
 <h2 id="visao-geral">Visão Geral</h2>
 <p>O sistema foi projetado com uma arquitetura baseada em microsserviços, dividida em uma interface principal que interage com três serviços especializados: Usuários, Financeiro e Benefícios. Cada microsserviço é responsável por uma área funcional específica e estabelece comunicação de forma segura e assíncrona por meio de APIs. Essas APIs servem como ponto de integração, permitindo que a interface principal e os demais microsserviços realizem operações de maneira eficiente e independente.</p>
 <p>Essa abordagem modular, com cada microsserviço gerenciando seu próprio banco de dados, possibilita escalabilidade individual dos componentes. Isso significa que melhorias, correções ou atualizações em um serviço podem ser feitas sem impactar diretamente os outros, tornando a arquitetura flexível e adaptável às necessidades do sistema.</p>
-<p>Nesse documento será apresentado a arquitetura do projeto e, por não haver nenhuma mudança na arquitetura em relação ao semestre de 2024.1, iremos manter as mesmas imagens de representação da mesma.</p>
+<p>Nesse documento será apresentado a arquitetura do projeto e, por não haver nenhuma mudança na arquitetura em relação ao semestre de 2024.1, iremos manter os mesmos diagramas.</p>
 <h2 id="estrutura-da-arquitetura">Estrutura da Arquitetura</h2>
 <h3 id="interface-do-sistema">Interface do Sistema</h3>
 <p>A interface funciona como o ponto principal de interação entre os usuários e o sistema. Essa camada desempenha papéis cruciais, como:</p>
@@ -1112,14 +1112,27 @@
 <h3 id="representacao-logica-de-dados-dld">Representação Lógica de Dados (DLD)</h3>
 <p>O Diagrama Lógico de Dados (DLD) detalha a organização das informações no banco de dados, mostrando como elas estão estruturadas e suas relações. Essa abordagem facilita a recuperação e a manipulação dos dados de maneira eficiente. Abaixo, os DLDs de cada microsserviço:</p>
 <h4 id="microsservico-de-usuarios_1">Microsserviço de Usuários</h4>
-<p><strong>Diagrama Representativo</strong>  diagrama-conceitual-usuarios
+<p><strong>Diagrama Representativo</strong>
 <img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/diagrama-conceitual-usuarios.png"></p>
+<p>O Diagrama Lógico de Dados (DLD) do microsserviço de usuários ilustra as principais entidades e relações que compõem o sistema. A entidade central é o <strong>User</strong>, que armazena informações fundamentais, como identificador único (<code>id</code>), e-mail, telefone, senha, nome, função (<em>role</em>) e status. Cada usuário está associado a uma <strong>Role</strong>, que define suas permissões e responsabilidades no sistema, estabelecendo uma relação de cardinalidade (1,1) entre essas entidades. Além disso, a entidade <strong>Membership</strong> conecta usuários a seus registros específicos, contendo informações como CPF, RG, sexo e data de nascimento. O diagrama também inclui dependências do usuário, representadas pela entidade <strong>Dependent</strong>, que armazena dados relacionados a parentes ou pessoas associadas, como nome completo, CPF, parentesco e data de nascimento. Por fim, a estrutura organiza usuários em <strong>Lotação</strong>, que, por sua vez, estão relacionadas a <strong>Órgãos</strong>, refletindo a hierarquia e alocação organizacional.</p>
 <h4 id="microsservico-financeiro_1">Microsserviço Financeiro</h4>
 <p><strong>Diagrama Representativo</strong><br />
 <img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/diagrama-conceitual-financas.png"></p>
+<p>O Diagrama Lógico de Dados (DLD) do microsserviço de finanças representa as entidades e relações essenciais para o gerenciamento de movimentações financeiras e fornecedores. A entidade central, <strong>financialMovement</strong>, registra as transações financeiras, incluindo informações como CPF/CNPJ, tipo de documento, nomes de origem e destino, e as contas envolvidas na operação (conta de origem e conta de destino). Esta entidade está diretamente relacionada às entidades <strong>supplier</strong> e <strong>bankAccount</strong>.</p>
+<p>A entidade <strong>supplier</strong> armazena informações de fornecedores, como cidade, CEP, chave Pix, telefone, e-mail e natureza da transação, além de dados específicos de identificação, como CPF/CNPJ e tipo de pessoa. Já a entidade <strong>bankAccount</strong> organiza os detalhes das contas bancárias, incluindo nome do banco, número da conta, tipo, agência, dígito verificador (DV), status da conta e se possui chave Pix.</p>
 <h4 id="microsservico-de-beneficios_1">Microsserviço de Benefícios</h4>
 <p><strong>Diagrama Representativo</strong><br />
 <img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/diagrama-conceitual-beneficios.png"></p>
+<p>O Diagrama Lógico de Dados (DLD) do microsserviço de benefícios descreve a estrutura da entidade <strong>Benefits</strong>, que centraliza as informações relacionadas aos benefícios oferecidos. Cada benefício é identificado por um <strong>id</strong> único e inclui detalhes importantes, como:</p>
+<ul>
+<li><strong>nome</strong> e <strong>descrição</strong>: especificam a identidade e informações detalhadas sobre o benefício.</li>
+<li><strong>teleCelular</strong> e <strong>site</strong>: fornecem dados de contato e acesso relacionados ao benefício.</li>
+<li><strong>categoria</strong>: classifica o tipo de benefício.</li>
+<li><strong>cpfCnpj</strong> e <strong>tipoPessoa</strong>: identificam o responsável ou a organização que oferece o benefício, permitindo distinção entre pessoa física e jurídica.</li>
+<li><strong>ans</strong>: referência a dados específicos de regulamentação (como benefícios relacionados à saúde).</li>
+<li><strong>contratoSit</strong>: indica o status contratual do benefício.</li>
+<li><strong>razaoSocial</strong> e <strong>logotipo</strong>: fornecem a identidade visual e jurídica da entidade responsável.</li>
+</ul>
 <h3 id="referencias">Referências</h3>
 <ul>
 <li>
