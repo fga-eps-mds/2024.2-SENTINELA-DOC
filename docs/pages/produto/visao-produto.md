@@ -19,7 +19,7 @@ Nesta etapa, buscamos estabelecer, de forma colaborativa, uma visão inicial e o
 | Equipe | Nomes | 
 | - | - |
 | PO | Matheus Amaral, Davi Mendonça |
-| EPS | Daniela Soares, Clara Marcelino, Guilerme  Peixoto| 
+| EPS | Daniela Soares, Clara Marcelino, Guilherme  Peixoto| 
 | MDS | Dannyeclisson Rodrigo Martins, Yzabella Miranda, Rodrigo Amaral, Igor Veras, Jorge Henrique, Mariana Martins, Eduardo Rodrigues | 
 
 **Descrição**:
@@ -32,7 +32,7 @@ Por ser o primeiro contato dos estudantes com o produto, não foi possivel valid
 
 Como resultado dessa reunião, conseguimos o seguinte quadro de Visão do Produto: 
 
-![Visão do Produto](/docs/assets/visao.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/visao.png">
 
 Ainda nesta reunião, foi iniciada a dinâmica de É/Nãoé - Faz/NãoFaz.
 
@@ -49,7 +49,7 @@ O objetivo, Nesta atividade, é classificar o produto com base em quatro diretri
 | Equipe | Nomes | 
 | - | - |
 | PO | Matheus Amaral, Davi Mendonça |
-| EPS | Daniela Soares, Guilerme Peixoto| 
+| EPS | Daniela Soares, Guilherme Peixoto| 
 | MDS | Dannyeclisson Rodrigo Martins,Yzabella Miranda, Rodrigo Ferreira,Guilherme Moura, Mariana Martins, Jorge Henrique, Eduardo Rodrigues
  | 
 
@@ -59,8 +59,7 @@ Nesta reunião, a dinâmica de ENFN foi novamente apresentada para o cliente e g
 
 Nessa etapa cada card foi passado um por um e revisado com os POs, foi possivel terminá-la sem nenhum problema e como resultado dessa reunião, chegou-se ao seguinte quadro ENFN: 
 
-![ENFN](/docs/assets/enaoe.png)
-
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/enaoe.png">
 
 ## Objetivos do Produto 
 
@@ -79,7 +78,7 @@ As personas são representações dos usuários finais do produto e trazem de fo
 | Equipe | Nomes | 
 | - | - |
 | PO | Matheus Amaral, Davi Mendonça |
-| EPS | Daniela Soares, Guilerme Peixoto| 
+| EPS | Daniela Soares, Guilherme Peixoto| 
 | MDS | Dannyeclisson Rodrigo Martins,Yzabella Miranda, Rodrigo Ferreira,Guilherme Moura, Mariana Martins, Jorge Henrique, Eduardo Rodrigues
  | 
 
@@ -89,16 +88,17 @@ Em reunião, a dinâmica de Visão do Produto foi apresentada para o cliente e g
 
 Neste encontro, iniciamos com os Objetivos do Produto que haviam sido levantados no semestre 2024/1, refinando os textos dos post-its, excluindo duplicatas, especificando os perfis de usuário em cada post-it e aglutinando clusters. Dessa forma, chegou-se nesta reunião ao seguinte resultado: 
 
-![Objetivos do Produto](/docs/assets/cluster.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/cluster.png">
 
 Em seguida, as personas construídas no semestre 2024/2 foram refinadas. Como pode-se observar abaixo, foram validadas 2 personas Gestor, 2 personas Sindicalizados,1 persona Advogada e 1 persona não Sindicalizada:
 
-![Personas](/docs/assets/persona1.png)
-![Personas](/docs/assets/persona2.png)
-![Personas](/docs/assets/persona3.png)
-![Personas](/docs/assets/persona4.png)
-![Personas](/docs/assets/persona5.png)
-![Personas](/docs/assets/persona6.png)
+
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona2.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona3.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona4.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona5.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona6.png">
  
 
 ## Jornada de Usuário
@@ -123,28 +123,29 @@ Para atender as necessidades das personas, as funcionalidades devem ser pensadas
 Durante a reunião com os Product Owners (POs), conduzida pela estudante Clara Marcelino, com a colaboração dos estudantes Daniela Soares e Guilherme Peixoto, que registraram as informações no quadro do Figma, foram discutidas e apontadas diversas correções. Essas contribuições resultaram na definição das seguintes personas e em suas respectivas jornadas:
 
 Persona 1 + Jornada:
-![P1](/docs/assets/persona1.png)
-![J1](/docs/assets/jornada1.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/jornada1.png">
 
 Persona 2 + Jornada:
-![P2](/docs/assets/persona2.png)
-![J2](/docs/assets/jornada2.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona2.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/jornada2.png">
 
 Persona 3 + Jornada:
-![P3](/docs/assets/persona3.png)
-![J3](/docs/assets/jornada3.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona3.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/jornada3.png">
 
 Persona 4 + Jornada:
-![P4](/docs/assets/persona4.png)
-![J4](/docs/assets/jornada4.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona4.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/jornada4.png">
 
 Persona 5 + Jornada:
-![P5](/docs/assets/persona5.png)
-![J5](/docs/assets/jornada5.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona5.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/jornada5.png">
 
 Persona 6 + Jornada:
-![P6](/docs/assets/persona6.png)
-![J6](/docs/assets/jornada6.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/persona6.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/jornada6.png">
+
 
 Com essa parte realizada, iniciamos nosso Brainstoming de Funcionalidades.
 
@@ -160,18 +161,16 @@ Com essa parte realizada, iniciamos nosso Brainstoming de Funcionalidades.
 | Equipe | Nomes | 
 | - | - |
 | PO | Matheus Amaral, Davi Mendonça |
-| EPS | Daniela Soares, Clara Marcelino, Guilerme  Peixoto| 
-| MDS | Dannyeclisson Rodrigo Martins, Yzabella Miranda, Rodrigo Amaral, Igor Veras, Jorge Henrique, Mariana Martins, Eduardo Rodrigues | 
+| EPS | Daniela Soares, Clara Marcelino, Guilherme   Peixoto| 
+| MDS | Dannyeclisson Rodrigo Martins, Yzabella Miranda, Rodrigo Amaral, Igor Veras, Jorge Henrique, Mariana Martins, Eduardo Rodrigues, joão, Guilherme  | 
 
 
 **Descrição**:
 
 Nesta reunião, a proposta era fazer o Brainstorming de Funcionalidades. Ela foi conduzida pelos estudantes Clara Marcelino, Daniela Soares e Guilherme Peixoto. As funcionalidades são representadas em post-its amarelos, enquanto em verde temos algumas notas que trazem detalhes a serem considerados sobre as respectivas funcionalidades. 
 
-![Brainstorming](/docs/assets/Brainstorming1.png)
-![Brainstorming](/docs/assets/Brainstorming2.png)
-
-
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/Brainstorming1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/Brainstorming2.png">
 
 ## Revisão técnica e de negócio
 
@@ -198,15 +197,15 @@ Com as funcionalidades definidas, é o momento de classificá-las utilizando um 
 | Equipe | Nomes | 
 | - | - |
 | PO | Matheus Amaral, Davi Mendonça |
-| EPS | Daniela Soares, Clara Marcelino, Guilerme  Peixoto| 
-| MDS | Dannyeclisson Rodrigo Martins, Yzabella Miranda, Rodrigo Amaral, Igor Veras, Jorge Henrique, Mariana Martins, Eduardo Rodrigues | 
+| EPS | Daniela Soares, Clara Marcelino, Guilherme   Peixoto| 
+| MDS | Dannyeclisson Rodrigo Martins, Yzabella Miranda, Rodrigo Amaral, Igor Veras, Jorge Henrique, Mariana Martins, Eduardo Rodrigues, joão, Guilherme  | 
 
 
 **Descrição**:
 
 Para essa reunião, ministrada pelo estudante Guilherme Peixoto com a colaboração da estudante Daniela Soares, que registrou as informações no quadro do Figma, foi feita a revisão e apontamentos das coisas qur ja tinham sido feitas  no semestre 2024/1. 
 
-![Rev Técnica e de Negócio](/docs/assets/revisao.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/revisao.png">
 
 ## Reunião 
 
@@ -217,8 +216,8 @@ Para essa reunião, ministrada pelo estudante Guilherme Peixoto com a colaboraç
 | Equipe | Nomes | 
 | - | - |
 | PO | Matheus Amaral, Davi Mendonça |
-| EPS | Daniela Soares, Clara Marcelino, Guilerme  Peixoto| 
-| MDS | Dannyeclisson Rodrigo Martins, Yzabella Miranda, Rodrigo Amaral, Igor Veras, Jorge Henrique, Mariana Martins, Eduardo Rodrigues | 
+| EPS | Daniela Soares, Clara Marcelino, Guilherme   Peixoto| 
+| MDS | Dannyeclisson Rodrigo Martins, Yzabella Miranda, Rodrigo Amaral, Igor Veras, Jorge Henrique, Mariana Martins, Eduardo Rodrigues, joão, Guilherme  | 
 
 
 **Descrição**:
@@ -234,13 +233,13 @@ Com o Sequenciador em mãos, o time realizou o **Dimensionamento de Tarefas**, q
 Esse processo foi fundamental para alinhar as expectativas e planejar as entregas do projeto. A dinâmica realizada pode ser visualizada na figura abaixo.  
 
 
-![Dimensionamento de tarefas](/docs/assets/historia1.png)
-![Dimensionamento de tarefas](/docs/assets/historia2.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/historia1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/historia2.png">
 
 Com o dimensionamento feito, o Sequenciador visto abaixo estava pronto para ser validado pelo cliente, a reunião foi ministrada pela estudante Daniela Soares. 
 
-![Sequenciador](/docs/assets/sequenciado1.png)
-![Sequenciador](/docs/assets/sequenciado2.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/sequenciado1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/sequenciado2.png">
 
 
 # Canvas MVP

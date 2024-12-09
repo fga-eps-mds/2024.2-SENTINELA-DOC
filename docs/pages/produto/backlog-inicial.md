@@ -1,10 +1,13 @@
 # Backlog Inicial
-O backlog do produto foi definido a partir do sequenciador instanciado durante o Lean Inception. Como pode ser visto abaixo: 
-![backlog](image-2.png)
+O backlog do produto foi definido a partir do sequenciador instanciado durante o Lean Inception. Como pode ser visto abaixo:
+ 
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/sequenciado1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/sequenciado2.png">
 
 Com o sequenciador em mãos, o time se reuniu e começou a detalhar todas as funcionalidades a nível de Histórias de Usuários, que viriam a compor o Backlog do Produto. Na imagem abaixo é possível ver que as histórias foram instanciadas a partir das funcionalidades do MVP.
 
-![historias](image-1.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/historia1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/historia2.png">
 
 A tabela abaixo apresenta as histórias de usuário relacionadas à gestão de dados, importação de extratos financeiros, solicitação de benefícios e gestão de patrimônio, com seus respectivos pontos de complexidade.
 
