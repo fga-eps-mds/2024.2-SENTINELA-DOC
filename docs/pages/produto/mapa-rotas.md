@@ -43,3 +43,10 @@ A tabela abaixo descreve as rotas configuradas em um sistema Node.js. Cada rota 
 #### **`DELETE /client/:id`**
 - **Descrição**: Remove um cliente do sistema com base no `id`.
 - **Ação**: `clientController.deleteById` executa a exclusão.
+
+### **Histórico de Versões**
+
+| **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
+|------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
+|   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento                                     |
+

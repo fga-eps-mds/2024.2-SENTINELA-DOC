@@ -14,7 +14,6 @@ nav:
   - Guia de Contribuição: pages/guia-contribuicao.md
   - Produto:
       - Visão do Produto: pages/produto/visao-produto.md
-      - Canvas MVP: pages/produto/canvas-mvp.md
       - Backlog Inicial: pages/produto/backlog-inicial.md
       - Documento de Arquitetura: pages/produto/documento-arquitetura.md
       - Mapa de rotas: pages/produto/mapa-rotas.md
