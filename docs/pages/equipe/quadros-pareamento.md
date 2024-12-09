@@ -18,3 +18,9 @@ Abaixo estão os pares de pareamento entre EPS e MDS:
   - Eduardo Rodrigues Levenhagem  
   - Guilherme Moura da Silva Neto  
   - Yzabella Miranda Pimenta  
+
+### **Histórico de Versões**
+
+| **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
+|------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
+|   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento   
