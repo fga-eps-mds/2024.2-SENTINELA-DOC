@@ -6,7 +6,7 @@ O sistema foi projetado com uma arquitetura baseada em microsserviços, dividida
 
 Essa abordagem modular, com cada microsserviço gerenciando seu próprio banco de dados, possibilita escalabilidade individual dos componentes. Isso significa que melhorias, correções ou atualizações em um serviço podem ser feitas sem impactar diretamente os outros, tornando a arquitetura flexível e adaptável às necessidades do sistema.
 
-Nesse documento será apresentado a arquitetura do projeto e, por não haver nenhuma mudança na arquitetura em relação ao semestre de 2024.1, iremos manter as mesmas imagens de representação da mesma.
+Nesse documento será apresentado a arquitetura do projeto e, por não haver nenhuma mudança na arquitetura em relação ao semestre de 2024.1, iremos manter os mesmos diagramas.
 
 
 ## Estrutura da Arquitetura
@@ -91,19 +91,34 @@ O Diagrama Lógico de Dados (DLD) detalha a organização das informações no b
 
 #### Microsserviço de Usuários
 
-**Diagrama Representativo**  diagrama-conceitual-usuarios
+**Diagrama Representativo**
 <img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/diagrama-conceitual-usuarios.png">
+
+O Diagrama Lógico de Dados (DLD) do microsserviço de usuários ilustra as principais entidades e relações que compõem o sistema. A entidade central é o **User**, que armazena informações fundamentais, como identificador único (`id`), e-mail, telefone, senha, nome, função (*role*) e status. Cada usuário está associado a uma **Role**, que define suas permissões e responsabilidades no sistema, estabelecendo uma relação de cardinalidade (1,1) entre essas entidades. Além disso, a entidade **Membership** conecta usuários a seus registros específicos, contendo informações como CPF, RG, sexo e data de nascimento. O diagrama também inclui dependências do usuário, representadas pela entidade **Dependent**, que armazena dados relacionados a parentes ou pessoas associadas, como nome completo, CPF, parentesco e data de nascimento. Por fim, a estrutura organiza usuários em **Lotação**, que, por sua vez, estão relacionadas a **Órgãos**, refletindo a hierarquia e alocação organizacional.
 
 #### Microsserviço Financeiro
 
 **Diagrama Representativo**  
 <img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/diagrama-conceitual-financas.png">
 
+O Diagrama Lógico de Dados (DLD) do microsserviço de finanças representa as entidades e relações essenciais para o gerenciamento de movimentações financeiras e fornecedores. A entidade central, **financialMovement**, registra as transações financeiras, incluindo informações como CPF/CNPJ, tipo de documento, nomes de origem e destino, e as contas envolvidas na operação (conta de origem e conta de destino). Esta entidade está diretamente relacionada às entidades **supplier** e **bankAccount**.
+
+A entidade **supplier** armazena informações de fornecedores, como cidade, CEP, chave Pix, telefone, e-mail e natureza da transação, além de dados específicos de identificação, como CPF/CNPJ e tipo de pessoa. Já a entidade **bankAccount** organiza os detalhes das contas bancárias, incluindo nome do banco, número da conta, tipo, agência, dígito verificador (DV), status da conta e se possui chave Pix.
+
 #### Microsserviço de Benefícios
 
 **Diagrama Representativo**  
 <img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/diagrama-conceitual-beneficios.png">
 
+O Diagrama Lógico de Dados (DLD) do microsserviço de benefícios descreve a estrutura da entidade **Benefits**, que centraliza as informações relacionadas aos benefícios oferecidos. Cada benefício é identificado por um **id** único e inclui detalhes importantes, como:
+
+- **nome** e **descrição**: especificam a identidade e informações detalhadas sobre o benefício.
+- **teleCelular** e **site**: fornecem dados de contato e acesso relacionados ao benefício.
+- **categoria**: classifica o tipo de benefício.
+- **cpfCnpj** e **tipoPessoa**: identificam o responsável ou a organização que oferece o benefício, permitindo distinção entre pessoa física e jurídica.
+- **ans**: referência a dados específicos de regulamentação (como benefícios relacionados à saúde).
+- **contratoSit**: indica o status contratual do benefício.
+- **razaoSocial** e **logotipo**: fornecem a identidade visual e jurídica da entidade responsável.
 
 ### Referências
 
