@@ -88,6 +88,17 @@ O valor total do desenvolvimento do produto ficou em **R$ 81.813,55**
 
 <iframe width="800" height="300" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vT-x_lgzMj3B3B2MivMkox02Iy3WCcRPjD3R0HKLScMRZeSNLr8hkRWrYXhrcxAp0TjK1r_F5odORfY/pubhtml?gid=850304013&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
+## Referências
+
+- BCB - Calculadora do cidadão. Disponível em: <https://www3.bcb.gov.br/CALCIDADAO/publico/exibirFormCorrecaoValores.do?method=exibirFormCorrecaoValores>.
+
+‌- Relatório Cobradi 2021: A Cooperação Educacional e Científica Brasileira em Foco. Disponível em: https://repositorio.ipea.gov.br/bitstream/11058/11621/4/Relatorio_Cobradi_2021.PDF.
+
+- Composição Tarifária - Distribuidora Brasília - Neoenergia - Neoenergia. Disponível em: <https://www.neoenergia.com/web/brasilia/sua-casa/composicao-tarifaria>.
+
+‌- Dicas para Economizar Energia ao Usar o Computador. Disponível em: https://www.mpgo.mp.br/portal/conteudo/dicas-para-economia-de-energia-ao-usar-o-computador.
+
+
 ### **Histórico de Versões**
 
 | **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
