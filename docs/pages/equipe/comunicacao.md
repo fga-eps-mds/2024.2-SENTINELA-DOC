@@ -1,7 +1,12 @@
 # Canais de comunicação 
 
 O plano de comunicação é um documento que busca orientar as ações de comunicação do time a fim de evitar falhas na comunicação.
+O quadro de disponibilidade mostra o melhor horário para a realização das reuniões, para facilitar o agendamento de reuniões e horários de pareamento.
 
+
+## Plataformas escolhidas
+
+![Comunicacao](/docs/assets/comunicacao.png)
 
 ## Plataformas escolhidas
 
@@ -14,7 +19,6 @@ O plano de comunicação é um documento que busca orientar as ações de comuni
 * <img src="https://www.freepnglogos.com/uploads/discord-logo-png/discord-logo-logodownload-download-logotipos-1.png" height="20px" width="20px"> Discord: usado para pareamentos e reuniões do time que não precisam ser gravadas. 
 
 * <img src="https://pngimg.com/uploads/github/github_PNG40.png" height="20px" width="20px"> Github: usado para repositórios de documentação e issues assim como repositórios de código fonte. 
-
 
 
 ## Histórico de versão
