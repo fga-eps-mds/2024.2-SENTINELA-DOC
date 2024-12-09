@@ -3,10 +3,7 @@
 O plano de comunicação é um documento que busca orientar as ações de comunicação do time a fim de evitar falhas na comunicação.
 O quadro de disponibilidade mostra o melhor horário para a realização das reuniões, para facilitar o agendamento de reuniões e horários de pareamento.
 
-
-## Plataformas escolhidas
-
-![Comunicacao](/docs/assets/comunicacao.png)
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/heathmap-horarios.png">
 
 ## Plataformas escolhidas
 

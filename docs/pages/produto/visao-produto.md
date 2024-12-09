@@ -1,4 +1,10 @@
-# Visão do produto
+# Visão do produto (Lean Inception)
+
+A Lean Inception é uma metodologia que combina Design Thinking e Lean Startup, projetada para identificar e priorizar o Produto Mínimo Viável (MVP) de forma colaborativa e eficiente. Essa abordagem é dividida em etapas e atividades específicas, facilitando a tomada de decisão sobre as funcionalidades essenciais para o produto inicial.
+
+No contexto do nosso projeto, realizamos uma adaptação da metodologia Lean Inception para alinhar com a disponibilidade de tempo da equipe e nossa agenda de trabalho. Devido à limitação de tempo, as sessões foram realizadas semanalmente, com duração de 1 hora por encontro, envolvendo os Product Owners (POs). Essa adaptação permitiu que a metodologia fosse aplicada ao longo de várias semanas.
+
+## Visão do produto
 
 Nesta etapa, buscamos estabelecer, de forma colaborativa, uma visão inicial e objetiva do que se espera do produto, utilizando uma frase estruturada no seguinte formato:
 
@@ -258,9 +264,5 @@ Lean Inception: Como alinhar pessoas e construir o produto certo. Caroli, Paulo.
 
 | **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
 |------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
-|   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento   
-
-
-
-
-
+|   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento  
+|   1.1      | Edição do documento    | 09/12/2024    |  Clara Marcelino          | Adiciona introdução da lean inception

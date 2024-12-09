@@ -5,7 +5,7 @@
 O gerenciamento de risco em um projeto de software é o processo de identificar, avaliar, mitigar e monitorar os riscos que podem impactar negativamente o sucesso do projeto. Ele tem como objetivo minimizar os efeitos adversos e aumentar a probabilidade de alcançar os objetivos do projeto dentro do prazo, orçamento e qualidade esperados.
 
 
-# Lista de Riscos do Projeto Sentinela
+## Lista de Riscos do Projeto Sentinela
 
 
 ## 1. Riscos de Projeto
