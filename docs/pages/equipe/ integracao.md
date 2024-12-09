@@ -28,11 +28,11 @@ Estiveram presentes nessa atividade os seguintes alunos de MDS: Jorge Henrique, 
 
 ### Registros
 
-<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/integracao-1.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/integracao-1.jpg">
 
-<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/integracao-2.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/integracao-2.jpg">
 
-<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/integracao-3.png">
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/integracao-3.jpg">
 
 ### Histórico de Versões
 
