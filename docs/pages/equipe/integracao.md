@@ -39,3 +39,4 @@ Estiveram presentes nessa atividade os seguintes alunos de MDS: Jorge Henrique, 
 | Versão | Nome da Versão      | Data      | Responsável         | Descrição/Alterações                                 |
 |------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
 |   1.0      | Criação do documento    | 09/12/2024    | Clara Marcelino         | Criação do documento 
+|   1.1      | Inserção dsa Imagens    | 09/12/2024    | Clara Marcelino         | Correção das imagens inseridas na página
