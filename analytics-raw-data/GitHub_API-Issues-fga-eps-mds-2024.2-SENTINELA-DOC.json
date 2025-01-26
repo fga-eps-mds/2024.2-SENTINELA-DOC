@@ -267,12 +267,33 @@
                 "type": "User",
                 "user_view_type": "public",
                 "site_admin": false
+            },
+            {
+                "login": "daniso0412",
+                "id": 170635252,
+                "node_id": "U_kgDOCiuv9A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/170635252?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/daniso0412",
+                "html_url": "https://github.com/daniso0412",
+                "followers_url": "https://api.github.com/users/daniso0412/followers",
+                "following_url": "https://api.github.com/users/daniso0412/following{/other_user}",
+                "gists_url": "https://api.github.com/users/daniso0412/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/daniso0412/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/daniso0412/subscriptions",
+                "organizations_url": "https://api.github.com/users/daniso0412/orgs",
+                "repos_url": "https://api.github.com/users/daniso0412/repos",
+                "events_url": "https://api.github.com/users/daniso0412/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/daniso0412/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
             }
         ],
         "milestone": null,
         "comments": 0,
         "created_at": "2025-01-11T20:24:39Z",
-        "updated_at": "2025-01-11T20:32:32Z",
+        "updated_at": "2025-01-21T18:11:45Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -281,7 +302,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "Incluir o custo do servidor na planilha de or\u00e7amento do projeto;\nAtualizar Custos por Hora dos Integrantes\n",
+        "body": "Incluir o custo do servidor na planilha de or\u00e7amento do projeto;\nAtualizar Custos por Hora dos Integrantes;\nAdicionar custo de servidor\n",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/143/reactions",
@@ -2149,6 +2170,27 @@
                 "type": "User",
                 "user_view_type": "public",
                 "site_admin": false
+            },
+            {
+                "login": "daniso0412",
+                "id": 170635252,
+                "node_id": "U_kgDOCiuv9A",
+                "avatar_url": "https://avatars.githubusercontent.com/u/170635252?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/daniso0412",
+                "html_url": "https://github.com/daniso0412",
+                "followers_url": "https://api.github.com/users/daniso0412/followers",
+                "following_url": "https://api.github.com/users/daniso0412/following{/other_user}",
+                "gists_url": "https://api.github.com/users/daniso0412/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/daniso0412/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/daniso0412/subscriptions",
+                "organizations_url": "https://api.github.com/users/daniso0412/orgs",
+                "repos_url": "https://api.github.com/users/daniso0412/repos",
+                "events_url": "https://api.github.com/users/daniso0412/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/daniso0412/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
             }
         ],
         "milestone": null,
@@ -3234,9 +3276,9 @@
             }
         ],
         "milestone": null,
-        "comments": 0,
+        "comments": 1,
         "created_at": "2024-12-09T09:56:23Z",
-        "updated_at": "2025-01-18T21:58:37Z",
+        "updated_at": "2025-01-25T02:29:45Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -3245,8 +3287,28 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "Como Administrador, gostaria de poder visualizar o status de mensalidade dos contrubuintes\n\n.[ ] Exibir os contribuintes que tiveram atualiza\u00e7\u00e3o de status.\n.[ ] Exibir o status anterior e o status atual\n.[ ] Exibir os contribuintes pendentes primeiro \n.[ ] Conseguir cancelar a assinatura do contribuinte\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5983-808&t=01EbILvgxcnZhpKj-1",
-        "closed_by": null,
+        "body": "Como Administrador, gostaria de poder visualizar o status de mensalidade dos contribuintes\n\n- [ ] Exibir os contribuintes que tiveram atualiza\u00e7\u00e3o de status.\n- [ ] Exibir o status anterior e o status atual\n- [ ] Exibir os contribuintes pendentes primeiro \n- [ ] Ter a op\u00e7\u00e3o de mudar a situa\u00e7\u00e3o da assinatura do contribuinte\n- [ ] Poder visualizar mais detalhes do contribuinte (nome, cpf)\n- [ ] Em caso de cancelar a filia\u00e7\u00e3o, ter como definir a data e motivo\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0",
+        "closed_by": {
+            "login": "redjsun",
+            "id": 100642769,
+            "node_id": "U_kgDOBf-v0Q",
+            "avatar_url": "https://avatars.githubusercontent.com/u/100642769?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/redjsun",
+            "html_url": "https://github.com/redjsun",
+            "followers_url": "https://api.github.com/users/redjsun/followers",
+            "following_url": "https://api.github.com/users/redjsun/following{/other_user}",
+            "gists_url": "https://api.github.com/users/redjsun/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/redjsun/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/redjsun/subscriptions",
+            "organizations_url": "https://api.github.com/users/redjsun/orgs",
+            "repos_url": "https://api.github.com/users/redjsun/repos",
+            "events_url": "https://api.github.com/users/redjsun/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/redjsun/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/116/reactions",
             "total_count": 0,
@@ -3261,7 +3323,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/116/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "reopened"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/115",
@@ -3335,12 +3397,75 @@
         ],
         "state": "open",
         "locked": false,
-        "assignee": null,
-        "assignees": [],
+        "assignee": {
+            "login": "rodrigoFAmaral",
+            "id": 28201919,
+            "node_id": "MDQ6VXNlcjI4MjAxOTE5",
+            "avatar_url": "https://avatars.githubusercontent.com/u/28201919?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodrigoFAmaral",
+            "html_url": "https://github.com/rodrigoFAmaral",
+            "followers_url": "https://api.github.com/users/rodrigoFAmaral/followers",
+            "following_url": "https://api.github.com/users/rodrigoFAmaral/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodrigoFAmaral/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodrigoFAmaral/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodrigoFAmaral/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodrigoFAmaral/orgs",
+            "repos_url": "https://api.github.com/users/rodrigoFAmaral/repos",
+            "events_url": "https://api.github.com/users/rodrigoFAmaral/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodrigoFAmaral/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "assignees": [
+            {
+                "login": "rodrigoFAmaral",
+                "id": 28201919,
+                "node_id": "MDQ6VXNlcjI4MjAxOTE5",
+                "avatar_url": "https://avatars.githubusercontent.com/u/28201919?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/rodrigoFAmaral",
+                "html_url": "https://github.com/rodrigoFAmaral",
+                "followers_url": "https://api.github.com/users/rodrigoFAmaral/followers",
+                "following_url": "https://api.github.com/users/rodrigoFAmaral/following{/other_user}",
+                "gists_url": "https://api.github.com/users/rodrigoFAmaral/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/rodrigoFAmaral/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/rodrigoFAmaral/subscriptions",
+                "organizations_url": "https://api.github.com/users/rodrigoFAmaral/orgs",
+                "repos_url": "https://api.github.com/users/rodrigoFAmaral/repos",
+                "events_url": "https://api.github.com/users/rodrigoFAmaral/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/rodrigoFAmaral/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+            },
+            {
+                "login": "Marianamrts",
+                "id": 144452739,
+                "node_id": "U_kgDOCJwsgw",
+                "avatar_url": "https://avatars.githubusercontent.com/u/144452739?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/Marianamrts",
+                "html_url": "https://github.com/Marianamrts",
+                "followers_url": "https://api.github.com/users/Marianamrts/followers",
+                "following_url": "https://api.github.com/users/Marianamrts/following{/other_user}",
+                "gists_url": "https://api.github.com/users/Marianamrts/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/Marianamrts/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/Marianamrts/subscriptions",
+                "organizations_url": "https://api.github.com/users/Marianamrts/orgs",
+                "repos_url": "https://api.github.com/users/Marianamrts/repos",
+                "events_url": "https://api.github.com/users/Marianamrts/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/Marianamrts/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
+            }
+        ],
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:56:06Z",
-        "updated_at": "2025-01-16T18:26:41Z",
+        "updated_at": "2025-01-24T00:32:02Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -3349,7 +3474,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "- [ ] ler arquivo csv\n- [ ] atualizar com base no csv a citua\u00e7\u00e3o de cada pessoa \n- [ ] checar o tipo do arquivo (n\u00e3o aceitar duplicatas)\n- [ ] checar a data do arquivo (n\u00e3o aceitar duplicatas)",
+        "body": "- [ ] Receber apenas arquivo csv\n- [ ] Arquivo csv deve utilizar como separador o s\u00edmbolo de ponto e virgula (\";\")\n- [ ] Atualizar com base no csv a situa\u00e7\u00e3o de cada sindicalizado\n- [ ] Checar o tipo do arquivo (n\u00e3o aceitar duplicatas)\n- [ ] Checar a data do arquivo (n\u00e3o aceitar duplicatas)\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/115/reactions",
@@ -3437,15 +3562,15 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": null,
         "assignees": [],
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:55:36Z",
-        "updated_at": "2025-01-16T18:26:18Z",
-        "closed_at": null,
+        "updated_at": "2025-01-23T18:38:31Z",
+        "closed_at": "2025-01-23T18:38:30Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -3454,7 +3579,27 @@
         },
         "active_lock_reason": null,
         "body": null,
-        "closed_by": null,
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/114/reactions",
             "total_count": 0,
@@ -3469,7 +3614,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/114/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/113",
@@ -3541,15 +3686,15 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": null,
         "assignees": [],
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:55:12Z",
-        "updated_at": "2025-01-16T18:25:35Z",
-        "closed_at": null,
+        "updated_at": "2025-01-23T18:37:49Z",
+        "closed_at": "2025-01-23T18:37:49Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -3558,7 +3703,27 @@
         },
         "active_lock_reason": null,
         "body": null,
-        "closed_by": null,
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/113/reactions",
             "total_count": 0,
@@ -3573,7 +3738,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/113/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/112",
@@ -3654,15 +3819,15 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": null,
         "assignees": [],
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:54:30Z",
-        "updated_at": "2025-01-16T18:24:58Z",
-        "closed_at": null,
+        "updated_at": "2025-01-21T00:48:24Z",
+        "closed_at": "2025-01-21T00:48:24Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -3671,7 +3836,27 @@
         },
         "active_lock_reason": null,
         "body": null,
-        "closed_by": null,
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/112/reactions",
             "total_count": 0,
@@ -3686,7 +3871,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/112/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/111",
@@ -3698,7 +3883,7 @@
         "id": 2726540808,
         "node_id": "I_kwDONEMnxM6ig7YI",
         "number": 111,
-        "title": "US12: Como administrador gostaria de gerar um relat\u00f3rio com base nos dados importados do BRB",
+        "title": ".",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -3720,35 +3905,16 @@
             "user_view_type": "public",
             "site_admin": false
         },
-        "labels": [
-            {
-                "id": 7696095481,
-                "node_id": "LA_kwDONEMnxM8AAAAByrkY-Q",
-                "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/labels/Epic",
-                "name": "Epic",
-                "color": "4660F9",
-                "default": false,
-                "description": null
-            },
-            {
-                "id": 7896709234,
-                "node_id": "LA_kwDONEMnxM8AAAAB1q44cg",
-                "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/labels/US",
-                "name": "US",
-                "color": "FBCA04",
-                "default": false,
-                "description": ""
-            }
-        ],
-        "state": "open",
+        "labels": [],
+        "state": "closed",
         "locked": false,
         "assignee": null,
         "assignees": [],
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:53:57Z",
-        "updated_at": "2025-01-16T18:24:34Z",
-        "closed_at": null,
+        "updated_at": "2025-01-23T18:37:32Z",
+        "closed_at": "2025-01-23T18:37:32Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -3757,7 +3923,27 @@
         },
         "active_lock_reason": null,
         "body": null,
-        "closed_by": null,
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/111/reactions",
             "total_count": 0,
@@ -3772,7 +3958,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/111/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/110",
@@ -3784,7 +3970,7 @@
         "id": 2726539261,
         "node_id": "I_kwDONEMnxM6ig6_9",
         "number": 110,
-        "title": "US11: Como administrador gostaria de importar dados do BRB",
+        "title": "US11: Como administrador gostaria de editar o tipo de documento das movimenta\u00e7\u00f5es financeiras",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -3888,12 +4074,33 @@
                 "type": "User",
                 "user_view_type": "public",
                 "site_admin": false
+            },
+            {
+                "login": "igorvdaniel",
+                "id": 136092030,
+                "node_id": "U_kgDOCByZfg",
+                "avatar_url": "https://avatars.githubusercontent.com/u/136092030?v=4",
+                "gravatar_id": "",
+                "url": "https://api.github.com/users/igorvdaniel",
+                "html_url": "https://github.com/igorvdaniel",
+                "followers_url": "https://api.github.com/users/igorvdaniel/followers",
+                "following_url": "https://api.github.com/users/igorvdaniel/following{/other_user}",
+                "gists_url": "https://api.github.com/users/igorvdaniel/gists{/gist_id}",
+                "starred_url": "https://api.github.com/users/igorvdaniel/starred{/owner}{/repo}",
+                "subscriptions_url": "https://api.github.com/users/igorvdaniel/subscriptions",
+                "organizations_url": "https://api.github.com/users/igorvdaniel/orgs",
+                "repos_url": "https://api.github.com/users/igorvdaniel/repos",
+                "events_url": "https://api.github.com/users/igorvdaniel/events{/privacy}",
+                "received_events_url": "https://api.github.com/users/igorvdaniel/received_events",
+                "type": "User",
+                "user_view_type": "public",
+                "site_admin": false
             }
         ],
         "milestone": null,
-        "comments": 0,
+        "comments": 1,
         "created_at": "2024-12-09T09:53:27Z",
-        "updated_at": "2025-01-18T23:13:02Z",
+        "updated_at": "2025-01-23T09:57:25Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -3902,7 +4109,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o:**\nComo administrador gostaria de importar dados do BRB para o sistema e gerar um relatorio mensal de entrada e sa\u00edda\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o:**\n\n- [ ] O bot\u00e3o buscar deve listar todas as movimenta\u00e7\u00f5es com o campo \"Tipo de documento\" em branco\n- [ ] Ter op\u00e7\u00e3o de editar a descri\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de editar o tipo de transa\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de marcar como gasto recorrente\n\nProt\u00f3tipo:\nhttps://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=6010-4175&p=f&t=wclpwlO3zsaGWU0R-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+        "body": "**Descri\u00e7\u00e3o:**\nComo administrador, gostaria de selecionar o tipo de documento de cada movimenta\u00e7\u00e3o financeira que estiver sem esse dado salvo.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o:**\n\n- [ ] A p\u00e1gina deve listar todas as movimenta\u00e7\u00f5es que est\u00e3o com o tipo \"Documento\" em branco\n- [ ] Ter op\u00e7\u00e3o de editar a descri\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de editar o tipo de transa\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de marcar como gasto recorrente \"Fixo\"\n\nProt\u00f3tipo:\nhttps://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=6010-4175&p=f&t=wclpwlO3zsaGWU0R-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/110/reactions",
@@ -3930,7 +4137,7 @@
         "id": 2726538102,
         "node_id": "I_kwDONEMnxM6ig6t2",
         "number": 109,
-        "title": "US10: Tratamento de dados do extrato do BRB",
+        "title": "US10: Importa\u00e7\u00e3o de dados do extrato banc\u00e1rio",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -4055,33 +4262,12 @@
                 "type": "User",
                 "user_view_type": "public",
                 "site_admin": false
-            },
-            {
-                "login": "igorvdaniel",
-                "id": 136092030,
-                "node_id": "U_kgDOCByZfg",
-                "avatar_url": "https://avatars.githubusercontent.com/u/136092030?v=4",
-                "gravatar_id": "",
-                "url": "https://api.github.com/users/igorvdaniel",
-                "html_url": "https://github.com/igorvdaniel",
-                "followers_url": "https://api.github.com/users/igorvdaniel/followers",
-                "following_url": "https://api.github.com/users/igorvdaniel/following{/other_user}",
-                "gists_url": "https://api.github.com/users/igorvdaniel/gists{/gist_id}",
-                "starred_url": "https://api.github.com/users/igorvdaniel/starred{/owner}{/repo}",
-                "subscriptions_url": "https://api.github.com/users/igorvdaniel/subscriptions",
-                "organizations_url": "https://api.github.com/users/igorvdaniel/orgs",
-                "repos_url": "https://api.github.com/users/igorvdaniel/repos",
-                "events_url": "https://api.github.com/users/igorvdaniel/events{/privacy}",
-                "received_events_url": "https://api.github.com/users/igorvdaniel/received_events",
-                "type": "User",
-                "user_view_type": "public",
-                "site_admin": false
             }
         ],
         "milestone": null,
-        "comments": 0,
+        "comments": 1,
         "created_at": "2024-12-09T09:53:00Z",
-        "updated_at": "2025-01-17T22:15:52Z",
+        "updated_at": "2025-01-23T09:56:17Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -4090,7 +4276,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o:**\nComo administrador gostaria de tratar os dados do BRB para que seja importado no sistema.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o:**\n\n- [ ]  Importar extrato banc\u00e1rio do BRB (arquivo .ofx)\n- [ ]  N\u00e3o aceitar movimenta\u00e7\u00f5es duplicadas\n- [ ]  Salvar as informa\u00e7\u00f5es em uma tabela",
+        "body": "**Descri\u00e7\u00e3o:**\nComo administrador, gostaria de importar um arquivo de extrato banc\u00e1rio e salv\u00e1-lo no sistema.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o:**\n\n- [ ]  Importar extrato banc\u00e1rio do BRB (arquivo .ofx)\n- [ ]  N\u00e3o aceitar movimenta\u00e7\u00f5es duplicadas\n- [ ]  Salvar as informa\u00e7\u00f5es em uma tabela",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/109/reactions",
@@ -4456,7 +4642,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:50:47Z",
-        "updated_at": "2025-01-16T18:22:48Z",
+        "updated_at": "2025-01-21T12:00:56Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -4465,7 +4651,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o:**\n\nComo gestor, quero visualizar informa\u00e7\u00f5es detalhadas sobre os sindicalizados e os \u00f3rg\u00e3os, como idade, local de resid\u00eancia e tempo de filia\u00e7\u00e3o, para que eu possa compreender melhor o perfil dos sindicalizados e tomar decis\u00f5es mais embasadas.\n\n**Criterios de aceita\u00e7\u00e3o:**\n\n- [ ] O dashboard deve incluir novas informa\u00e7\u00f5es sobre os sindicalizados, como idade, cidade/estado de resid\u00eancia e tempo de filia\u00e7\u00e3o.\n\n- [ ] Deve exibir detalhes complementares dos \u00f3rg\u00e3os, como n\u00famero total de servidores, distribui\u00e7\u00e3o et\u00e1ria e porcentagem de sindicalizados em rela\u00e7\u00e3o ao total.\n\n- [ ] Deve ser poss\u00edvel aplicar filtros din\u00e2micos (ex.: faixa et\u00e1ria, localidade, tempo de filia\u00e7\u00e3o).\n\n- [ ] As informa\u00e7\u00f5es devem ser apresentadas em gr\u00e1ficos e tabelas que sejam claras e responsivas.\n\nProt\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5893-4017&t=ac7rq9WrUNr5uwfy-0",
+        "body": "**Descri\u00e7\u00e3o:**\n\nComo gestor, quero visualizar informa\u00e7\u00f5es detalhadas sobre os sindicalizados e os \u00f3rg\u00e3os, como idade, local de resid\u00eancia e tempo de filia\u00e7\u00e3o, para que eu possa compreender melhor o perfil dos sindicalizados e tomar decis\u00f5es mais embasadas.\n\n**Criterios de aceita\u00e7\u00e3o:**\n\n- [ ] O dashboard deve incluir novas informa\u00e7\u00f5es sobre os sindicalizados: (gr\u00e1fico de linhas onde ser\u00e1 apresentado a quantidade de filia\u00e7\u00f5es, desfilia\u00e7\u00f5es e n\u00e3o filiados com o tipo de visualiza\u00e7\u00e3o mensal, semestral e anual).\n\n- [ ] O dashboard deve conter um gr\u00e1fico do tipo rosquinha para mostrar a quantidade de filiados ativos e aposentados.\n\n- [ ] Deve exibir detalhes complementares dos \u00f3rg\u00e3os, como n\u00famero total de servidores, porcentagem de sindicalizados em rela\u00e7\u00e3o ao total e rela\u00e7\u00e3o por sexo de sindicalizado por unidade de lota\u00e7\u00e3o.\n\n- [ ] Deve ser poss\u00edvel aplicar filtros din\u00e2micos por tempo (ex.: Per\u00edodo por m\u00eas).\n\n- [ ] As informa\u00e7\u00f5es devem ser apresentadas em gr\u00e1ficos que sejam claros e responsivas.\n\nProt\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5893-4017&t=ac7rq9WrUNr5uwfy-0",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/107/reactions",
@@ -4493,7 +4679,7 @@
         "id": 2726526726,
         "node_id": "I_kwDONEMnxM6ig38G",
         "number": 106,
-        "title": "Melhoria1: Gerenciar Permiss\u00f5es",
+        "title": "Melhoria2: Gerenciar Permiss\u00f5es",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -4728,7 +4914,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:48:30Z",
-        "updated_at": "2025-01-16T18:22:12Z",
+        "updated_at": "2025-01-20T23:29:15Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -5374,7 +5560,7 @@
         "id": 2718893894,
         "node_id": "I_kwDONEMnxM6iDwdG",
         "number": 100,
-        "title": "FIX7: Melhoria da tela de login",
+        "title": "Melhoria1: Melhoria da tela de login",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -5425,7 +5611,7 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": {
             "login": "rodrigoFAmaral",
@@ -5516,8 +5702,8 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-12-04T22:14:52Z",
-        "updated_at": "2024-12-17T22:31:52Z",
-        "closed_at": null,
+        "updated_at": "2025-01-23T18:24:55Z",
+        "closed_at": "2025-01-23T18:24:55Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -5525,8 +5711,28 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o**\n\nComo usu\u00e1rio, eu gostaria de conseguir visualizar as vantagens na p\u00e1gina inicial (login) e me interar dos benef\u00edcios de me filiar ao sindicato.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o**\n\n- [ ] Na p\u00e1gina inicial (login) deve haver uma mensagem inicial, convidando o usu\u00e1rio a conhecer as vantagens de se filiar;\n- [ ] Na p\u00e1gina inicial (login) deve haver um bot\u00e3o que leva o usuario at\u00e9 o conte\u00fado das vantagens/beneficios;\n- [ ] As vantagens devem ser exibidas na p\u00e1gina inicial;\n- [ ] A p\u00e1gina inicial deve ser responsiva e com boa usabilidade em mobile;\n\n**Prot\u00f3tipo:**\n\nProt\u00f3tipo com modifica\u00e7\u00f5es na interface:\n- P\u00e1gina de Login com a chamada para a p\u00e1gina de /vantagens: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4559\n- Mobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4636\n\nProt\u00f3tipo sem modifica\u00e7\u00f5es na interface:\n- Login: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-5306&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile com card expandido: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5283-5678&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
-        "closed_by": null,
+        "body": "**Descri\u00e7\u00e3o**\n\nComo usu\u00e1rio, eu gostaria de conseguir visualizar as vantagens na p\u00e1gina inicial (login) e me interar dos benef\u00edcios de me filiar ao sindicato.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o**\n\n- [x] Na p\u00e1gina inicial (login) deve haver uma mensagem inicial, convidando o usu\u00e1rio a conhecer as vantagens de se filiar;\n- [x] Na p\u00e1gina inicial (login) deve haver um bot\u00e3o que leva o usuario at\u00e9 o conte\u00fado das vantagens/beneficios;\n- [x] As vantagens devem ser exibidas na p\u00e1gina inicial;\n- [x] A p\u00e1gina inicial deve ser responsiva e com boa usabilidade em mobile;\n\n**Prot\u00f3tipo:**\n\nProt\u00f3tipo com modifica\u00e7\u00f5es na interface:\n- P\u00e1gina de Login com a chamada para a p\u00e1gina de /vantagens: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4559\n- Mobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4636\n\nProt\u00f3tipo sem modifica\u00e7\u00f5es na interface:\n- Login: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-5306&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile com card expandido: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5283-5678&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/100/reactions",
             "total_count": 0,
@@ -5541,7 +5747,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/100/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/99",
@@ -7203,7 +7409,7 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": {
             "login": "rodrigoFAmaral",
@@ -7294,8 +7500,8 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-11-28T17:36:18Z",
-        "updated_at": "2024-12-17T17:53:40Z",
-        "closed_at": null,
+        "updated_at": "2025-01-23T18:18:45Z",
+        "closed_at": "2025-01-23T18:18:44Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -7303,8 +7509,28 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o**\n\nComo usu\u00e1rio, quero encontrar informa\u00e7\u00f5es de contato do sindicato no rodap\u00e9, para esclarecer d\u00favidas ou obter mais informa\u00e7\u00f5es.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o**\n\n- [ ] Todas as p\u00e1ginas do sistema devem exibir um rodap\u00e9 com informa\u00e7\u00f5es de contato do sindicato.\n- [ ] O rodap\u00e9 deve conter: Telefone, E-mail, Endere\u00e7o, links para redes sociais e para o site (sindpol.org,br).\n- [ ] O design do rodap\u00e9 deve ser discreto, mas leg\u00edvel, e consistente entre as p\u00e1ginas.\n- [ ]  O rodap\u00e9 deve ser responsivo para dispositivos m\u00f3veis.\n\n**Prot\u00f3tipo**\nRodap\u00e9 ao final da p\u00e1gina: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4559\nMobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4636&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
-        "closed_by": null,
+        "body": "**Descri\u00e7\u00e3o**\n\nComo usu\u00e1rio, quero encontrar informa\u00e7\u00f5es de contato do sindicato no rodap\u00e9, para esclarecer d\u00favidas ou obter mais informa\u00e7\u00f5es.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o**\n\n- [x] Todas as p\u00e1ginas do sistema devem exibir um rodap\u00e9 com informa\u00e7\u00f5es de contato do sindicato.\n- [x] O rodap\u00e9 deve conter: Telefone, E-mail, Endere\u00e7o, links para redes sociais e para o site (sindpol.org,br).\n- [x] O design do rodap\u00e9 deve ser discreto, mas leg\u00edvel, e consistente entre as p\u00e1ginas.\n- [x]  O rodap\u00e9 deve ser responsivo para dispositivos m\u00f3veis.\n\n**Prot\u00f3tipo**\nRodap\u00e9 ao final da p\u00e1gina: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4559\nMobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5044-4636&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/87/reactions",
             "total_count": 0,
@@ -7319,7 +7545,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/87/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/86",
@@ -7482,7 +7708,7 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-11-28T17:24:53Z",
-        "updated_at": "2024-12-17T17:53:30Z",
+        "updated_at": "2025-01-23T08:55:04Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -7491,7 +7717,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o**\nComo filiado, quero visualizar os pre\u00e7os associados a cada benef\u00edcio de forma detalhada em uma p\u00e1gina espec\u00edfica.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o**\n\n- [ ] Cada benef\u00edcio listado deve conter: Nome do benef\u00edcio, Descri\u00e7\u00e3o breve, e Pre\u00e7o.\n- [ ] Cada benef\u00edcio deve ter ao final a op\u00e7\u00e3o de entrar em contato diretamente com o sindicato por whatsapp para mais detalhes;\n- [ ] Caso um benef\u00edcio n\u00e3o tenha custo direto, deve estar marcado como \"Incluso na filia\u00e7\u00e3o\".\n- [ ] A p\u00e1gina deve manter o mesmo padr\u00e3o visual e estrutura da UI das demais p\u00e1ginas do sistema.\n- [ ] Usu\u00e1rios n\u00e3o logados n\u00e3o devem ter acesso a essa p\u00e1gina.\n- [ ] A p\u00e1gina deve ser responsiva para dispositivos m\u00f3veis.\n\n**Prot\u00f3tipo**\n\nP\u00e1gina de pre\u00e7o de benef\u00edcios: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5134-4637&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=914%3A2508\nMobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5134-4997&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=914%3A2508\nBenef\u00edcios na vis\u00e3o do gestor: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5296-5828&node-type=frame&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
+        "body": "**Descri\u00e7\u00e3o**\nComo filiado, quero visualizar os pre\u00e7os associados a cada benef\u00edcio de forma detalhada em uma p\u00e1gina espec\u00edfica.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o**\n\n- [x] Cada benef\u00edcio listado deve conter: Nome do benef\u00edcio, Descri\u00e7\u00e3o breve, e Pre\u00e7o.\n- [x] Cada benef\u00edcio deve ter ao final a op\u00e7\u00e3o de entrar em contato diretamente com o sindicato por whatsapp para mais detalhes;\n- [x] Caso um benef\u00edcio n\u00e3o tenha custo direto, deve estar marcado como \"Incluso na filia\u00e7\u00e3o\".\n- [x] A p\u00e1gina deve manter o mesmo padr\u00e3o visual e estrutura da UI das demais p\u00e1ginas do sistema.\n- [ ] Usu\u00e1rios n\u00e3o logados n\u00e3o devem ter acesso a essa p\u00e1gina.\n- [x] A p\u00e1gina deve ser responsiva para dispositivos m\u00f3veis.\n\n**Prot\u00f3tipo**\n\nP\u00e1gina de pre\u00e7o de benef\u00edcios: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5134-4637&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=914%3A2508\nMobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5134-4997&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=914%3A2508\nBenef\u00edcios na vis\u00e3o do gestor: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5296-5828&node-type=frame&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/86/reactions",
@@ -8163,7 +8389,7 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": {
             "login": "clara-ribeiro",
@@ -8254,8 +8480,8 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-11-25T23:30:35Z",
-        "updated_at": "2024-12-17T17:53:19Z",
-        "closed_at": null,
+        "updated_at": "2025-01-23T18:18:02Z",
+        "closed_at": "2025-01-23T18:18:02Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -8263,8 +8489,28 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o**\nComo um n\u00e3o filiado, quero visualizar os benef\u00edcios da filia\u00e7\u00e3o antes de me filiar na p\u00e1gina inicial.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o**\n\n- [ ] O componente de vantagens deve puxar os benef\u00edcios ativos cadastrados no banco de dados.\n- [ ] O componente de vantagens deve ter um bot\u00e3o que envie para o formul\u00e1rio de filia\u00e7\u00e3o.\n- [ ] O componente de vantagens deve ser exibido na p\u00e1gina inicial;\n- [ ] A UI deve seguir o padr\u00e3o estabelecido, com cores, tipografia e bot\u00f5es coerentes com o restante do sistema.\n- [ ]  A p\u00e1gina deve ser responsiva para dispositivos m\u00f3veis.\n- [ ]  Cada benef\u00edcio deve ser exibido de forma resumida (a principio com nome e um bot\u00e3o de saber mais, que ir\u00e1 abrir uma modal com a descri\u00e7\u00e3o do benef\u00edcio).\n\n**Prot\u00f3tipo:**\n\nProt\u00f3tipo com modifica\u00e7\u00f5es na interface:\n- P\u00e1gina /vantagens: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5064-265&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5128-5332&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n\nProt\u00f3tipo sem modifica\u00e7\u00f5es na interface:\n- Vantagens: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-4614&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Vantagens com card expandido: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-5423&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-5208&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile com card expandido: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5283-5678&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
-        "closed_by": null,
+        "body": "**Descri\u00e7\u00e3o**\nComo um n\u00e3o filiado, quero visualizar os benef\u00edcios da filia\u00e7\u00e3o antes de me filiar na p\u00e1gina inicial.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o**\n\n- [x] O componente de vantagens deve puxar os benef\u00edcios ativos cadastrados no banco de dados.\n- [x] O componente de vantagens deve ter um bot\u00e3o que envie para o formul\u00e1rio de filia\u00e7\u00e3o.\n- [x] O componente de vantagens deve ser exibido na p\u00e1gina inicial;\n- [x] A UI deve seguir o padr\u00e3o estabelecido, com cores, tipografia e bot\u00f5es coerentes com o restante do sistema.\n- [x]  A p\u00e1gina deve ser responsiva para dispositivos m\u00f3veis.\n- [x]  Cada benef\u00edcio deve ser exibido de forma resumida (a principio com nome e um bot\u00e3o de saber mais, que ir\u00e1 abrir uma modal com a descri\u00e7\u00e3o do benef\u00edcio).\n\n**Prot\u00f3tipo:**\n\nProt\u00f3tipo com modifica\u00e7\u00f5es na interface:\n- P\u00e1gina /vantagens: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5064-265&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5128-5332&node-type=canvas&t=99arc2CPDI3q1Wcb-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n\nProt\u00f3tipo sem modifica\u00e7\u00f5es na interface:\n- Vantagens: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-4614&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Vantagens com card expandido: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-5423&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5278-5208&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371\n- Mobile com card expandido: https://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=5283-5678&node-type=canvas&t=oM3Q7DfwoK8kirdg-0&scaling=min-zoom&content-scaling=fixed&page-id=5044%3A4371",
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/82/reactions",
             "total_count": 0,
@@ -8279,7 +8525,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/82/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/81",
