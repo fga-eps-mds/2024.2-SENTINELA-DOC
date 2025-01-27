@@ -3278,7 +3278,7 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-12-09T09:56:23Z",
-        "updated_at": "2025-01-25T02:29:45Z",
+        "updated_at": "2025-01-27T17:04:25Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -3287,7 +3287,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "Como Administrador, gostaria de poder visualizar o status de mensalidade dos contribuintes\n\n- [ ] Exibir os contribuintes que tiveram atualiza\u00e7\u00e3o de status.\n- [ ] Exibir o status anterior e o status atual\n- [ ] Exibir os contribuintes pendentes primeiro \n- [ ] Ter a op\u00e7\u00e3o de mudar a situa\u00e7\u00e3o da assinatura do contribuinte\n- [ ] Poder visualizar mais detalhes do contribuinte (nome, cpf)\n- [ ] Em caso de cancelar a filia\u00e7\u00e3o, ter como definir a data e motivo\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0",
+        "body": "Como Administrador, gostaria de poder visualizar o status de mensalidade dos contribuintes\n\n- [ ] Exibir os contribuintes que tiveram atualiza\u00e7\u00e3o de status.\n- [ ] Exibir o status anterior e o status atual\n- [ ] Exibir os contribuintes pendentes primeiro \n- [ ] Ter a op\u00e7\u00e3o de mudar a situa\u00e7\u00e3o da assinatura do contribuinte\n- [ ] Poder visualizar mais detalhes do contribuinte (nome, cpf)\n- [x] Em caso de cancelar a filia\u00e7\u00e3o, ter como definir a data e motivo\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0",
         "closed_by": {
             "login": "redjsun",
             "id": 100642769,
