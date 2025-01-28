@@ -3536,7 +3536,7 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-12-09T09:56:23Z",
-        "updated_at": "2025-01-27T21:06:22Z",
+        "updated_at": "2025-01-27T23:21:56Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -3545,7 +3545,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "Como Administrador, gostaria de poder visualizar o status de mensalidade dos contribuintes\n\n- [ ] Exibir os contribuintes que tiveram atualiza\u00e7\u00e3o de status.\n- [ ] Exibir o status anterior e o status atual\n- [ ] Exibir os contribuintes pendentes primeiro \n- [ ] Ter a op\u00e7\u00e3o de mudar a situa\u00e7\u00e3o da assinatura do contribuinte\n- [ ] Poder visualizar mais detalhes do contribuinte (nome, cpf)\n- [ ] Em caso de cancelar a filia\u00e7\u00e3o, ter como definir a data e motivo\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0",
+        "body": "Como Administrador, gostaria de poder visualizar o status de mensalidade dos contribuintes\n\n- [ ] Exibir os contribuintes que tiveram atualiza\u00e7\u00e3o de status.\n- [ ] Exibir o status anterior e o status atual\n- [ ] Exibir os contribuintes pendentes primeiro \n- [ ] Ter a op\u00e7\u00e3o de mudar a situa\u00e7\u00e3o da assinatura do contribuinte\n- [ ] Poder visualizar mais detalhes do contribuinte (nome, cpf)\n- [ ] Em caso de cancelar a filia\u00e7\u00e3o, ter como definir a data e motivo\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0\n\nForms de avalia\u00e7\u00e3o -> https://docs.google.com/forms/d/e/1FAIpQLSfdfhuRgVi7isSNyOlaAvDH620Jo7pw9EdoiniGDa0sNP8Ppw/viewform\n\n",
         "closed_by": {
             "login": "redjsun",
             "id": 100642769,
@@ -3723,7 +3723,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:56:06Z",
-        "updated_at": "2025-01-24T00:32:02Z",
+        "updated_at": "2025-01-27T23:43:52Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -3732,7 +3732,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "- [ ] Receber apenas arquivo csv\n- [ ] Arquivo csv deve utilizar como separador o s\u00edmbolo de ponto e virgula (\";\")\n- [ ] Atualizar com base no csv a situa\u00e7\u00e3o de cada sindicalizado\n- [ ] Checar o tipo do arquivo (n\u00e3o aceitar duplicatas)\n- [ ] Checar a data do arquivo (n\u00e3o aceitar duplicatas)\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0",
+        "body": "- [ ] Receber apenas arquivo csv\n- [ ] Arquivo csv deve utilizar como separador o s\u00edmbolo de ponto e virgula (\";\")\n- [ ] Campo identificador do nome do sindicalizado dentro do arquivo deve estar como \"nome\"\n- [ ] Atualizar com base no csv a situa\u00e7\u00e3o de cada sindicalizado\n- [ ] Checar o tipo do arquivo (n\u00e3o aceitar duplicatas)\n- [ ] Checar a data do arquivo (n\u00e3o aceitar duplicatas)\n\n\nLink do Prot\u00f3tipo: https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot\u00f3tipos-2024.2?node-id=6062-3183&t=JimMT39jp1eDTBgS-0\n\nForms de avalia\u00e7\u00e3o -> https://docs.google.com/forms/d/e/1FAIpQLSfdfhuRgVi7isSNyOlaAvDH620Jo7pw9EdoiniGDa0sNP8Ppw/viewform\n\n",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/115/reactions",
@@ -4358,7 +4358,7 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-12-09T09:53:27Z",
-        "updated_at": "2025-01-23T09:57:25Z",
+        "updated_at": "2025-01-27T23:20:38Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -4367,7 +4367,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o:**\nComo administrador, gostaria de selecionar o tipo de documento de cada movimenta\u00e7\u00e3o financeira que estiver sem esse dado salvo.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o:**\n\n- [ ] A p\u00e1gina deve listar todas as movimenta\u00e7\u00f5es que est\u00e3o com o tipo \"Documento\" em branco\n- [ ] Ter op\u00e7\u00e3o de editar a descri\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de editar o tipo de transa\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de marcar como gasto recorrente \"Fixo\"\n\nProt\u00f3tipo:\nhttps://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=6010-4175&p=f&t=wclpwlO3zsaGWU0R-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
+        "body": "**Descri\u00e7\u00e3o:**\nComo administrador, gostaria de selecionar o tipo de documento de cada movimenta\u00e7\u00e3o financeira que estiver sem esse dado salvo.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o:**\n\n- [ ] A p\u00e1gina deve listar todas as movimenta\u00e7\u00f5es que est\u00e3o com o tipo \"Documento\" em branco\n- [ ] Ter op\u00e7\u00e3o de editar a descri\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de editar o tipo de transa\u00e7\u00e3o\n- [ ] Ter op\u00e7\u00e3o de marcar como gasto recorrente \"Fixo\"\n\nProt\u00f3tipo:\nhttps://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=6010-4175&p=f&t=wclpwlO3zsaGWU0R-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1\nForms de avalia\u00e7\u00e3o -> https://docs.google.com/forms/d/e/1FAIpQLSfdfhuRgVi7isSNyOlaAvDH620Jo7pw9EdoiniGDa0sNP8Ppw/viewform",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/110/reactions",
@@ -4525,7 +4525,7 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-12-09T09:53:00Z",
-        "updated_at": "2025-01-23T09:56:17Z",
+        "updated_at": "2025-01-28T00:57:57Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -4534,7 +4534,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o:**\nComo administrador, gostaria de importar um arquivo de extrato banc\u00e1rio e salv\u00e1-lo no sistema.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o:**\n\n- [ ]  Importar extrato banc\u00e1rio do BRB (arquivo .ofx)\n- [ ]  N\u00e3o aceitar movimenta\u00e7\u00f5es duplicadas\n- [ ]  Salvar as informa\u00e7\u00f5es em uma tabela",
+        "body": "**Descri\u00e7\u00e3o:**\nComo administrador, gostaria de importar um arquivo de extrato banc\u00e1rio e salv\u00e1-lo no sistema.\n\n**Crit\u00e9rios de Aceita\u00e7\u00e3o:**\n\n- [ ]  Importar extrato banc\u00e1rio do BRB (arquivo .ofx) As seguintes **tags** devem estar presentes como elementos essenciais dentro do arquivo para extrair os dados corretamente:  **`DTPOSTED`**: Data da transa\u00e7\u00e3o, **`TRNAMT`**: Valor da transa\u00e7\u00e3o, **`NAME`**: Nome ou descri\u00e7\u00e3o principal e **`MEMO`**: Observa\u00e7\u00e3o complementar.\nEssas tags devem aparecer dentro do bloco `<STMTTRN>`\n- [ ]  N\u00e3o aceitar movimenta\u00e7\u00f5es duplicadas\n- [ ]  Salvar as informa\u00e7\u00f5es em uma tabela\n\nForms de avalia\u00e7\u00e3o -> https://docs.google.com/forms/d/e/1FAIpQLSfdfhuRgVi7isSNyOlaAvDH620Jo7pw9EdoiniGDa0sNP8Ppw/viewform\n\n",
         "closed_by": null,
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/109/reactions",
@@ -4749,7 +4749,7 @@
         "id": 2726532494,
         "node_id": "I_kwDONEMnxM6ig5WO",
         "number": 107,
-        "title": "US8: Adi\u00e7\u00e3o de informa\u00e7\u00f5es de usu\u00e1rios e \u00f3rg\u00e3os no dashboard",
+        "title": "Melhoria8: Adi\u00e7\u00e3o de informa\u00e7\u00f5es de usu\u00e1rios e \u00f3rg\u00e3os no dashboard",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -4900,7 +4900,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:50:47Z",
-        "updated_at": "2025-01-21T12:00:56Z",
+        "updated_at": "2025-01-28T01:14:47Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
