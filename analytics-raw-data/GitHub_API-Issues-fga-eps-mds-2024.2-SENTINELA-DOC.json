@@ -4832,7 +4832,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:51:44Z",
-        "updated_at": "2025-01-30T00:56:39Z",
+        "updated_at": "2025-01-31T01:16:33Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -4841,7 +4841,7 @@
             "percent_completed": 0
         },
         "active_lock_reason": null,
-        "body": "**Descri\u00e7\u00e3o:**\nComo sindicalizado, quero visualizar no dashboard informa\u00e7\u00f5es sobre os benef\u00edcios dispon\u00edveis, como tipos (lazer, educa\u00e7\u00e3o, etc), para que eu possa entender quais benef\u00edcios est\u00e3o ao meu alcance e como posso utiliz\u00e1-los.\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o:**\n\n- [ ] Mostrar o quantitativo de pessoas que usam cada benef\u00edcio;\n- [ ] Mostrar atrav\u00e9s de um gr\u00e1fico, por exemplo;\n- [ ] Mostrar todos os benef\u00edcios e o plano de advocacia;\n\nProt\u00f3tipo -> \n\nLink do form de avalia\u00e7\u00e3o -> https://docs.google.com/forms/d/e/1FAIpQLSeVOudXhLWqGVFZibVLtaoQYT2pBbrGlzYzRS4fI6OWpBp6_A/viewform?usp=sharing",
+        "body": "**Descri\u00e7\u00e3o:**\nComo Administrador, gostaria de visualizar um gr\u00e1fico com o uso dos benef\u00edcios\n\n**Crit\u00e9rios de aceita\u00e7\u00e3o:**\n-[ ] Acrescentar na p\u00e1gina de dashboard existe, um gr\u00e1fico(ex: rosquinha)\n\n-[ ] O gr\u00e1fico dever\u00e1 mostrar todos os benef\u00edcios do sistema\n\n-[ ] O gr\u00e1fico dever\u00e1 mostrar uma porcentagem de uso dos sindicalizados aos benef\u00edcios\n\n-[ ] Dever\u00e1 ser responsivo\nProt\u00f3tipo -> https://www.figma.com/design/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=6333-5429&t=l3TOKKVOXSA34mTk-4\n\nLink do form de avalia\u00e7\u00e3o -> https://docs.google.com/forms/d/e/1FAIpQLSeVOudXhLWqGVFZibVLtaoQYT2pBbrGlzYzRS4fI6OWpBp6_A/viewform?usp=sharing",
         "closed_by": {
             "login": "clara-ribeiro",
             "id": 64803940,
