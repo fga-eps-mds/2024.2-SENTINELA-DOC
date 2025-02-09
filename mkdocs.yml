@@ -22,7 +22,7 @@ nav:
       - Gestão de risco: pages/gestao/risco.md
       - Gestão de qualidade: pages/gestao/qualidade.md
       - Metodologias: pages/gestao/metodologias.md
-      - Guia de contribuição: pages/gestao/Entregas-e-roadmap.md
+      - Entregas e roadmap: pages/gestao/Entregas-e-roadmap.md
       - EVM: pages/gestao/EVM.md
   - Protótipos:
       - Alta Fidelidade: pages/prototipos/alta-fidelidade.md

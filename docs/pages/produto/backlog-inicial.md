@@ -1,4 +1,5 @@
-# Backlog Inicial
+# Backlog do Produto
+
 O backlog do produto foi definido a partir do sequenciador instanciado durante o Lean Inception. Como pode ser visto abaixo:
  
 <img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/sequenciado1.png">
@@ -34,9 +35,12 @@ A tabela abaixo apresenta as histórias de usuário relacionadas à gestão de d
 |                                        | Como administrador, gostaria que houvesse uma área específica do site para gerir os patrimônios cadastrados.  | 5          |
 |                                        | Como administrador, gostaria de gerar um relatório com todos os patrimônios cadastrados.                     | 8          |
 
+Para poder visualizar melhor as USs basta acessa: [Zenhub](https://github.com/fga-eps-mds/2024.2-SENTINELA-DOC/issues#workspaces/20242-sentinela-671a73b04c2c44000f895e1e/roadmap) 
+
 
 ### **Histórico de Versões**
 
 | **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
 |------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
-|   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento                                     |
+|   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento |   
+2.0      | Atualização do documento    | 09/02/2025    |  Daniela Soares          | Atualização do documento                                    |
