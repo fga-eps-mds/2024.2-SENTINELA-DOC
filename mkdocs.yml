@@ -22,7 +22,8 @@ nav:
       - Gestão de risco: pages/gestao/risco.md
       - Gestão de qualidade: pages/gestao/qualidade.md
       - Metodologias: pages/gestao/metodologias.md
-      - Guia de contribuição: pages/gestao/Guia_de_contribuicao.md
+      - Guia de contribuição: pages/gestao/contribuicao.md
+      - EVM: pages/gestao/EVM.md
   - Protótipos:
       - Alta Fidelidade: pages/prototipos/alta-fidelidade.md
   - Equipe:
