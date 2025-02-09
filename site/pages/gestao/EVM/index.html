@@ -1,0 +1,1208 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Entregas-e-roadmap/">
+      
+      
+        <link rel="next" href="../../prototipos/alta-fidelidade/">
+      
+      
+      <link rel="icon" href="../../../assets/sindpol-logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.48">
+    
+    
+      
+        <title>EVM - Sentinela</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="brown" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#evm-earned-value-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Sentinela" class="md-header__button md-logo" aria-label="Sentinela" data-md-component="logo">
+      
+  <img src="../../../assets/sindpol-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Sentinela
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              EVM
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Sentinela" class="md-nav__button md-logo" aria-label="Sentinela" data-md-component="logo">
+      
+  <img src="../../../assets/sindpol-logo.png" alt="logo">
+
+    </a>
+    Sentinela
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../projeto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projeto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-contribuicao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de Contribuição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Produto
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Produto
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/visao-produto/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visão do Produto
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/backlog-inicial/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Backlog Inicial
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/documento-arquitetura/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Documento de Arquitetura
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../produto/mapa-rotas/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mapa de rotas
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Gestão de Riscos e Recursos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Gestão de Riscos e Recursos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../custo/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Custo
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../risco/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gestão de risco
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../qualidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gestão de qualidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metodologias/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metodologias
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Entregas-e-roadmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Guia de contribuição
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    EVM
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    EVM
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#formulas-do-evm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fórmulas do EVM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fórmulas do EVM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-variacoes-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Variações de Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-indices-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Índices de Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-previsoes-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Previsões Futuras
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Protótipos
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Protótipos
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../prototipos/alta-fidelidade/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Alta Fidelidade
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Equipe
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Equipe
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipe/quadros-conhecimento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadros de Conhecimento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipe/dojos/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dojôs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipe/quadros-pareamento/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quadro de Pareamento
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipe/comunicacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Comunicação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipe/agenda-trabalho/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Agenda de Trabalho
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipe/integracao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Integração da Equipe
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../equipe/projeto-capacitacao/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Projeto de Capacitação
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#formulas-do-evm" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fórmulas do EVM
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Fórmulas do EVM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-variacoes-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Variações de Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-indices-de-desempenho" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Índices de Desempenho
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-previsoes-futuras" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Previsões Futuras
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="evm-earned-value-management">EVM (Earned Value Management)</h1>
+<p>O <strong>EVM (Earned Value Management)</strong>, ou Gerenciamento do Valor Agregado, é uma metodologia amplamente utilizada em gerenciamento de projetos para medir o desempenho e o progresso de um projeto de forma objetiva. Ele integra escopo, cronograma e custos, permitindo que os gerentes de projeto avaliem se o projeto está dentro do prazo, do orçamento e se está entregando o valor esperado.</p>
+<p>O EVM utiliza três métricas principais para avaliar o desempenho do projeto:</p>
+<ol>
+<li><strong>PV (Planned Value) - Valor Planejado</strong>:<br />
+   Representa o valor do trabalho que deveria ter sido concluído até um determinado ponto no tempo, de acordo com o plano do projeto. É o custo orçado para o trabalho planejado.</li>
+</ol>
+<p>[
+   PV = \% \text{ do trabalho planejado} \times \text{Orçamento Total (BAC)}
+   ]</p>
+<ol>
+<li><strong>EV (Earned Value) - Valor Agregado</strong>:<br />
+   Representa o valor do trabalho que foi realmente concluído até o momento. É o custo orçado para o trabalho realizado.</li>
+</ol>
+<p>[
+   EV = \% \text{ do trabalho realizado} \times \text{Orçamento Total (BAC)}
+   ]</p>
+<ol>
+<li><strong>AC (Actual Cost) - Custo Real</strong>:<br />
+   Representa os custos reais incorridos para realizar o trabalho até o momento. É o valor gasto para concluir o trabalho realizado.</li>
+</ol>
+<p>[
+   AC = \text{Custos reais incorridos}
+   ]</p>
+<hr />
+<h2 id="formulas-do-evm">Fórmulas do EVM</h2>
+<h3 id="1-variacoes-de-desempenho">1. Variações de Desempenho</h3>
+<ul>
+<li><strong>CV (Cost Variance) - Variação de Custo</strong>:<br />
+  Mostra se o projeto está acima ou abaixo do orçamento.<br />
+  [
+  CV = EV - AC
+  ]</li>
+<li>Se ( CV &gt; 0 ): Projeto abaixo do orçamento (bom).  </li>
+<li>
+<p>Se ( CV &lt; 0 ): Projeto acima do orçamento (ruim).</p>
+</li>
+<li>
+<p><strong>SV (Schedule Variance) - Variação de Prazo</strong>:<br />
+  Mostra se o projeto está adiantado ou atrasado em relação ao cronograma.<br />
+  [
+  SV = EV - PV
+  ]</p>
+</li>
+<li>Se ( SV &gt; 0 ): Projeto adiantado (bom).  </li>
+<li>Se ( SV &lt; 0 ): Projeto atrasado (ruim).</li>
+</ul>
+<hr />
+<h3 id="2-indices-de-desempenho">2. Índices de Desempenho</h3>
+<ul>
+<li><strong>CPI (Cost Performance Index) - Índice de Desempenho de Custo</strong>:<br />
+  Mede a eficiência do uso dos recursos.<br />
+  [
+  CPI = \frac{EV}{AC}
+  ]</li>
+<li>Se ( CPI &gt; 1 ): Custo menor que o planejado (bom).  </li>
+<li>
+<p>Se ( CPI &lt; 1 ): Custo maior que o planejado (ruim).</p>
+</li>
+<li>
+<p><strong>SPI (Schedule Performance Index) - Índice de Desempenho de Prazo</strong>:<br />
+  Mede a eficiência do tempo em relação ao cronograma.<br />
+  [
+  SPI = \frac{EV}{PV}
+  ]</p>
+</li>
+<li>Se ( SPI &gt; 1 ): Projeto adiantado (bom).  </li>
+<li>Se ( SPI &lt; 1 ): Projeto atrasado (ruim).</li>
+</ul>
+<hr />
+<h3 id="3-previsoes-futuras">3. Previsões Futuras</h3>
+<ul>
+<li>
+<p><strong>ETC (Estimate to Complete) - Estimativa para Concluir</strong>:<br />
+  Estimativa dos custos necessários para concluir o trabalho restante.<br />
+  [
+  ETC = \frac{BAC - EV}{CPI} \quad \text{(considerando o desempenho atual)}
+  ]</p>
+</li>
+<li>
+<p><strong>EAC (Estimate at Completion) - Estimativa no Término</strong>:<br />
+  Estimativa do custo total do projeto ao final, com base no desempenho atual.<br />
+  [
+  EAC = AC + ETC
+  ]
+  Ou, se o desempenho futuro for igual ao planejado:<br />
+  [
+  EAC = AC + (BAC - EV)
+  ]</p>
+</li>
+<li>
+<p><strong>VAC (Variance at Completion) - Variação no Término</strong>:<br />
+  Diferença entre o orçamento total (BAC) e a estimativa no término (EAC).<br />
+  [
+  VAC = BAC - EAC
+  ]</p>
+</li>
+<li>Se ( VAC &gt; 0 ): Projeto abaixo do orçamento (bom).  </li>
+<li>
+<p>Se ( VAC &lt; 0 ): Projeto acima do orçamento (ruim).</p>
+</li>
+<li>
+<p><strong>TCPI (To Complete Performance Index) - Índice de Desempenho para Concluir</strong>:<br />
+  Mede a eficiência necessária para concluir o projeto dentro do orçamento restante.<br />
+  [
+  TCPI = \frac{BAC - EV}{BAC - AC}
+  ]</p>
+</li>
+<li>Se ( TCPI &gt; 1 ): É necessário melhorar o desempenho.  </li>
+<li>Se ( TCPI &lt; 1 ): O desempenho atual é suficiente.</li>
+</ul>
+<hr />
+<p>Caso exista maior interesse sobre a metodologia Agile EVM, o material referente à ela pode ser encontrado no seguinte artigo: <a href="https://www.projectmanagement.com/content/attachments/itstratpm_080812105311.pdf">AgileEVM – Earned Value Management in Scrum ProjectsTexto do link</a>.</p>
+<h1 id="evm-sentinela">EVM - Sentinela</h1>
+<p>O processo de monitoramento do projeto se iniciou durante a release 1. Com os custos do projeto já relatados no documento de Custos.</p>
+<iframe width="800" height="300" src="https://docs.google.com/spreadsheets/d/1YwVDR6rTVSiXeyPFe3dFgfc3uppEwnWIbtUq1g6CdAI/edit?gid=518402925#gid=518402925"></iframe>
+
+<h1 id="analise-das-major-releases">Análise das Major Releases</h1>
+<p>Com base nos gráficos gerados por sprint, que comparam o Valor Agregado X Custo Atual X Valor Planejado, é possível avaliar o desempenho de cada major release entregue pela equipe.  </p>
+<h3 id="analise-da-release-1">Análise da Release 1</h3>
+<p>A <strong>Release 1</strong> teve um ciclo de desenvolvimento de duas semanas, com um planejamento que previa a entrega de aproximadamente 25% do valor agregado total do sistema. No entanto, devido a desafios iniciais enfrentados pela equipe no processo de válidação, o valor efetivamente entregue e aceito ficou abaixo da meta estabelecida.</p>
+<p><img alt="alt text" src="../../../assets/pv-ac-ap.png" /></p>
+<h3 id="analise-da-release-mvp">Análise da Release MVP</h3>
+<p>A análise da Release MVP, representada pelo gráfico "Valor Planejado x Custo Atual x Valor Agregado", revelou importantes insights sobre o desempenho da equipe durante as sprints.</p>
+<h4 id="desempenho-observado">Desempenho Observado:</h4>
+<ol>
+<li>
+<p><strong>Custo Atual (Actual Cost)</strong>: O custo real do projeto apresentou um crescimento contínuo e significativo, ultrapassando o valor planejado em todas as sprints. Isso indica que o esforço necessário para executar as atividades foi maior do que o previsto inicialmente.</p>
+</li>
+<li>
+<p><strong>Valor Planejado (Planned Value)</strong>: O planejamento previa um aumento gradual nas entregas ao longo do período, com expectativas alinhadas ao progresso natural do desenvolvimento.</p>
+</li>
+<li>
+<p><strong>Valor Agregado (Earned Value)</strong>: O valor efetivamente entregue e aceito ficou abaixo do planejado. Isso evidencia que as metas estabelecidas para cada sprint não foram completamente atingidas.</p>
+</li>
+</ol>
+<h4 id="conclusoes">Conclusões:</h4>
+<ul>
+<li>O custo elevado, combinado com entregas abaixo do esperado, aponta para ineficiências no processo de desenvolvimento e gestão de recursos.</li>
+<li>O recesso combinado com o atrazo dos testes feitas pelo POs e dificuldades iniciais da equipe podem ter contribuído para atrasos e menor produtividade, afetando diretamente o valor agregado.</li>
+<li>Ajustes no planejamento e na execução das tarefas foram necessários para evitar novos desvios no cronograma e no orçamento.</li>
+</ul>
+<p>Este diagnóstico reforça a necessidade de otimizar os processos e aprimorar o alinhamento entre os recursos disponíveis e os objetivos definidos para as próximas releases.</p>
+<p><img alt="alt text" src="../../../assets/pv-ac-ap-mvp.png" /></p>
+<h3 id="analise-da-release-final">Análise da Release Final</h3>
+<p>O gráfico "Valor Planejado x Custo Atual x Valor Agregado" da Release Final apresenta os resultados obtidos ao final do projeto, destacando a relação entre o planejamento, os custos e as entregas realizadas.</p>
+<h4 id="desempenho-observado_1">Desempenho Observado:</h4>
+<ol>
+<li>
+<p><strong>Custo Atual (Actual Cost)</strong>: O custo real manteve-se elevado e estável em torno de R$ 40.000,00, representando um investimento significativo para a conclusão da release.</p>
+</li>
+<li>
+<p><strong>Valor Planejado (Planned Value)</strong>: O planejamento previa uma entrega incremental, mas em níveis baixos, com o valor planejado ficando consideravelmente abaixo do custo real.</p>
+</li>
+<li>
+<p><strong>Valor Agregado (Earned Value)</strong>: O valor efetivamente entregue ao final do projeto foi insignificante em relação ao valor planejado e ao custo real, indicando que os objetivos principais da release final não foram atingidos.</p>
+</li>
+</ol>
+<h4 id="conclusoes_1">Conclusões:</h4>
+<ul>
+<li><strong>Baixa eficiência</strong>: Apesar do alto investimento financeiro, o valor agregado entregue foi praticamente inexistente, o que indica falhas significativas no gerenciamento e execução das atividades.</li>
+<li><strong>Desalinhamento com o planejamento</strong>: O baixo valor planejado sugere expectativas conservadoras, mas, ainda assim, as entregas ficaram muito abaixo das metas estabelecidas.</li>
+<li><strong>Impacto negativo no projeto</strong>: O desempenho da Release Final comprometeu a relação custo-benefício do projeto, sugerindo que os recursos foram mal alocados ou que imprevistos críticos impediram as entregas.</li>
+</ul>
+<p>Essa análise reforça a importância de revisar processos e estratégias para garantir que as próximas iniciativas entreguem valor compatível com os recursos investidos.</p>
+<p><img alt="alt text" src="../../../assets/pv-ac-ap-rfinal.png" /></p>
+<h3 id="historico-de-versoes"><strong>Histórico de Versões</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Versão</strong></th>
+<th><strong>Nome da Versão</strong></th>
+<th><strong>Data</strong></th>
+<th><strong>Responsável</strong></th>
+<th><strong>Descrição/Alterações</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>09/02/2025</td>
+<td>Daniela Soares</td>
+<td>Criação do documento</td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencias">Referências</h2>
+<p><a href="https://www.projectmanagement.com/content/attachments/itstratpm_080812105311.pdf">AgileEVM – Earned Value Management in Scrum ProjectsTexto do link</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+    
+  </body>
+</html>
