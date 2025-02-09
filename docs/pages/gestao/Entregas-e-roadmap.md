@@ -42,6 +42,8 @@ As US foram divididas em **5 Releases** no total (**3 Major e 2 Minor**):
 - **Bugfix4** - Acesso à barra lateral sem permissão  
 - **Melhoria5** - [Descrever melhoria específica]  
 
----
+### **Histórico de Versões**
 
-Agora o link para o roadmap está corrigido e a formatação do Markdown está mais organizada. Se precisar de mais ajustes, me avise! 🚀
+| **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
+|------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
+|   1.0      | Criação do documento    | 09/02/2025    | Daniela Soares        | Criação do documento    
