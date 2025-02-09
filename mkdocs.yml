@@ -14,7 +14,7 @@ nav:
   - Guia de Contribuição: pages/guia-contribuicao.md
   - Produto:
       - Visão do Produto: pages/produto/visao-produto.md
-      - Backlog Inicial: pages/produto/backlog-inicial.md
+      - Backlog do Produto: pages/produto/backlog-inicial.md
       - Documento de Arquitetura: pages/produto/documento-arquitetura.md
       - Mapa de rotas: pages/produto/mapa-rotas.md
   - Gestão de Riscos e Recursos:
@@ -24,6 +24,7 @@ nav:
       - Metodologias: pages/gestao/metodologias.md
       - Entregas e roadmap: pages/gestao/Entregas-e-roadmap.md
       - EVM: pages/gestao/EVM.md
+      - Histórias Planejadas X Aceitas Pelos POs: pages/gestao/Histórias-planejadasXaceitaspelos-POs.md
   - Protótipos:
       - Alta Fidelidade: pages/prototipos/alta-fidelidade.md
   - Equipe:
