@@ -34,3 +34,5 @@ nav:
       - Agenda de Trabalho: pages/equipe/agenda-trabalho.md
       - Integração da Equipe: pages/equipe/integracao.md
       - Projeto de Capacitação: pages/equipe/projeto-capacitacao.md
+  - Resultados alcançados:
+    - Contribuição do projeto: pages/resultados/contribuicao.md
