@@ -37,3 +37,4 @@ nav:
       - Projeto de Capacitação: pages/equipe/projeto-capacitacao.md
   - Resultados alcançados:
     - Contribuição do projeto: pages/resultados/contribuicao.md
+    - Validação das hipóteses de negócio: pages/resultados/hipoteses-mvp.md
