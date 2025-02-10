@@ -134,3 +134,4 @@ O Diagrama Lógico de Dados (DLD) do microsserviço de benefícios descreve a es
 | **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
 |------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
 |   1.0      | Criação do documento    | 08/12/2024    | Clara Marcelino         | Criação do documento                                     |
+|   2.0      | Atualização do documento    | 09/02/2025    | Daniela Soares        | Atualização do documento                                     |
