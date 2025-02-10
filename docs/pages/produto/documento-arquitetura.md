@@ -123,11 +123,61 @@ O Diagrama Lógico de Dados (DLD) do microsserviço de benefícios descreve a es
 - **contratoSit**: indica o status contratual do benefício.
 - **razaoSocial** e **logotipo**: fornecem a identidade visual e jurídica da entidade responsável.
 
+# Visões do Sistema: Implantação
+
+## Visão Geral
+
+A visão de implantação do sistema se concentra nos aspectos relacionados à gestão de configuração, contemplando como o sistema é organizado para garantir uma operação estável e escalável. Com a arquitetura baseada em microsserviços, cada componente do sistema é independente e gerenciado de maneira individualizada, o que facilita a adaptação e evolução das partes do sistema sem impactar os demais serviços.
+
+A implantação é feita de forma a garantir que cada microsserviço esteja em constante sincronização com as suas dependências, de forma segura e eficiente. A gestão de configuração visa assegurar que as versões de cada serviço estejam atualizadas, além de permitir um controle rigoroso sobre os ambientes de desenvolvimento, teste e produção.
+
+## Gerenciamento de Configuração
+
+### Ferramentas de Gestão de Configuração
+
+A gestão de configuração é crucial para manter a integridade e a consistência do sistema, especialmente considerando que ele é composto por diversos microsserviços independentes. As ferramentas de gestão de configuração utilizadas no projeto incluem:
+
+- **Git**: Para controle de versão de código, permitindo o acompanhamento de mudanças e a colaboração entre equipes.
+- **Docker**: Para a criação de containers que encapsulam os microsserviços e suas dependências, garantindo que o ambiente de execução seja o mesmo em todas as etapas de desenvolvimento, teste e produção.
+- **CI/CD**: O processo de integração contínua e entrega contínua é implementado utilizando ferramentas como Jenkins, GitHub Actions ou GitLab CI, que garantem a automação de testes e deploys.
+
+### Controle de Versões
+
+Para garantir que o sistema funcione de maneira harmoniosa, é fundamental o controle adequado das versões dos microsserviços. Cada serviço tem sua própria versão, e o controle de versões é feito da seguinte maneira:
+
+- **Versionamento Semântico**: Cada microsserviço segue o versionamento semântico (SemVer), com a incrementação de versões maiores, menores e de patch dependendo das mudanças feitas.
+- **Gerenciamento de Dependências**: As dependências entre microsserviços são controladas e gerenciadas por meio de arquivos de configuração, como `package.json` para o backend Node.js e `docker-compose.yml` para a configuração dos containers Docker.
+
+### Monitoramento e Manutenção
+
+Além de garantir a implantação do sistema, o gerenciamento de configuração também abrange o monitoramento da infraestrutura e a manutenção contínua dos serviços:
+
+- **Monitoramento**: Ferramentas como Prometheus, Grafana e ELK Stack (Elasticsearch, Logstash e Kibana) são utilizadas para monitoramento em tempo real dos microsserviços e coleta de logs.
+- **Alertas**: Configuração de alertas automáticos para identificar falhas ou degradações de performance, utilizando serviços como PagerDuty ou Slack.
+- **Backup e Recuperação**: Processos automáticos de backup e recuperação de dados são configurados para garantir a integridade do sistema e a continuidade dos serviços.
+
+## Estratégia de Implantação
+
+A implantação do sistema é realizada de forma gradual e controlada. A cada nova versão de microsserviço, é feito um processo de teste em ambiente de staging antes de ser promovido para produção. O uso de containers Docker facilita a automação de deploys e o rollback caso haja falhas.
+
+A visão de implantação foca no gerenciamento de configuração, assegurando que o sistema seja implantado de maneira eficiente, segura e escalável. Com o uso de ferramentas e processos como Docker, CI/CD, e monitoramento contínuo, garantimos a consistência e integridade do sistema durante todo o seu ciclo de vida.
+
+A estratégia de implantação inclui:
+
+1. **Criação e Testes Locais**: Cada desenvolvedor trabalha localmente com containers Docker para testar suas alterações.
+2. **Deploy em Ambiente de Staging**: Após os testes locais, a versão é promovida para o ambiente de staging, onde realiza-se mais testes de integração.
+3. **Deploy em Produção**: Após aprovação em staging, o deploy é realizado em produção utilizando Kubernetes para gerenciar os microsserviços.
+4. **Monitoramento Pós-Deploy**: Após o deploy, a equipe de operações monitora o comportamento do sistema, ajustando configurações e realizando manutenção contínua conforme necessário.
+
+
+
 ### Referências
 
 - AMAZON AWS. *O que são microsserviços?*. Disponível em: [https://aws.amazon.com/pt/microservices/](https://aws.amazon.com/pt/microservices/).  
 
 - Arquitetura - 2024.1 - SENTINELA. Disponível em: <https://fga-eps-mds.github.io/2024.1-SENTINELA-DOC/gestao/arquitetura/>. Acesso em: 9 dez. 2024.
+
+- Compreender Estratégias de Implantação. Disponível em: (https://docs.oracle.com/pt-br/solutions/plan-mad-strats-devops/understand-depoyment-architectures.html#GUID-D0B793EE-1E28-42F5-BCCB-9E1465E85886) Acesso em: 9 FEV. 2025.
 
 ### **Histórico de Versões**
 
