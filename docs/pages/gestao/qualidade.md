@@ -23,7 +23,7 @@ O monitoramento de métricas e a implementação de práticas estruturadas foram
 **Cobertura de Código**  
    - Monitoramos a extensão em que o código-fonte foi testado, assegurando que os testes automatizados cobrissem cenários críticos e minimizassem a ocorrência de bugs não detectados.  
 
-**Duplicação de Código**  
+**Duplicidade de Código**  
    - Identificamos e reduzimos trechos de código redundantes, promovendo manutenibilidade e eficiência no desenvolvimento.  
 
 **Vulnerabilidades e Bugs**  
@@ -31,6 +31,15 @@ O monitoramento de métricas e a implementação de práticas estruturadas foram
 
 **Integração com CI/CD**  
    - Configuramos pipelines de integração contínua para executar automaticamente as análises do SonarCloud, garantindo que problemas fossem detectados antes da fusão de branches.  
+
+**Tempo de Execução dos Testes (`test_execution_time`)**  
+   - Medimos o tempo de execução dos testes para garantir eficiência e rapidez no ciclo de desenvolvimento.
+
+**Fast Tests**  
+   - Garantimos que os testes fossem executados rapidamente, utilizando um valor de referência de 300000 microssegundos.
+
+**Taxa de Sucesso nos Testes (`tests_success`)**  
+   - Unificamos as métricas de falhas e erros de testes para avaliar a confiabilidade dos testes automatizados.
 
 ## Políticas de Código e Revisão  
 
@@ -72,21 +81,20 @@ Para garantir a qualidade e eficiência no desenvolvimento, foram utilizadas fer
 
 Essas ferramentas foram fundamentais para implementar um processo de desenvolvimento ágil e orientado à qualidade, otimizando tanto o aspecto técnico quanto a gestão das atividades.
 
+## Qualidade e suas Características
+
+A qualidade do software é definida por um conjunto de características e subcaracterísticas que permitem medir e garantir um produto confiável. Seguindo o modelo da ISO 25010, a qualidade pode ser analisada com base nos seguintes aspectos:
+
+- **Funcionalidade**: Capacidade do software de fornecer funcionalidades que atendam aos requisitos do usuário.
+- **Eficiência de Desempenho**: Tempo de resposta, consumo de recursos e capacidade de processamento.
+- **Confiabilidade**: Disponibilidade, tempo médio entre falhas e recuperação.
+- **Usabilidade**: Facilidade de uso, acessibilidade e aprendizado.
+- **Manutenibilidade**: Facilidade para modificar, corrigir ou aprimorar o software.
+- **Portabilidade**: Capacidade de ser executado em diferentes ambientes.
 
 ## Modelo de Qualidade do Q-Rapids  
 
-O modelo de qualidade do Q-Rapids combina objetivos estratégicos e científicos para melhorar a qualidade do software e otimizar o ciclo de vida de desenvolvimento. Segundo o projeto Q-Rapids (2024), os objetivos estratégicos gerais (GO1-GO3) concentram-se em melhorar os níveis de qualidade do software, aumentar a produtividade e reduzir o tempo de lançamento no mercado. Esses objetivos são desdobrados em objetivos científicos (SO1-SO4) que detalham ações práticas e técnicas para alcançar os resultados desejados.  
-
-### Objetivos Estratégicos Gerais (GO1-GO3)  
-**Melhorar os níveis de qualidade do software**: Garantir que os produtos entregues atendam aos requisitos técnicos e superem as expectativas dos usuários.  
-**Aumentar a produtividade no ciclo de vida do software**: Otimizar processos para reduzir desperdícios e acelerar a entrega de valor.  
-**Reduzir o tempo de lançamento do software no mercado**: Minimizar prazos para lançamento de novas funcionalidades e produtos completos, mantendo a qualidade.  
-
-### Objetivos Científicos (SO1-SO4)  
-**Coletar e analisar dados de tempo de execução e de tempo de design**: Integrar informações de diferentes etapas do desenvolvimento para obter uma visão abrangente do desempenho.  
-**Definir o ciclo de vida do software integrando requisitos de qualidade e funcionais**: Promover um alinhamento claro entre os aspectos técnicos e as necessidades dos usuários.  
-**Elaborar indicadores-chave estratégicos (KPIs)**: Permitir que os tomadores de decisão gerenciem o desenvolvimento com base em dados precisos.  
-**Fornecer suporte de ferramentas**: Implementar soluções, como o SonarCloud, que facilitem um ciclo de vida voltado à qualidade.  
+O modelo Q-Rapids é um framework de avaliação contínua da qualidade de software que integra diferentes métricas e fontes de dados para fornecer insights estratégicos sobre o desenvolvimento. Ele utiliza um conjunto de fatores de qualidade, como manutenibilidade, confiabilidade e produtividade, combinados com métricas extraídas de ferramentas como SonarQube. O modelo permite que equipes tomem decisões informadas com base em análises quantitativas e qualitativas, facilitando a identificação de problemas e a implementação de melhorias contínuas. Além disso, o Q-Rapids adota uma abordagem iterativa e adaptável, permitindo personalizações conforme as necessidades específicas de cada projeto, garantindo que a qualidade do software seja mantida e aprimorada ao longo do ciclo de desenvolvimento.
 
 ### Fatores e Métricas de Qualidade  
 Os fatores de qualidade, como manutenibilidade, confiabilidade, usabilidade e eficiência, são pilares para avaliar o sucesso do produto, do processo e da organização. As métricas associadas fornecem dados quantitativos que:  
@@ -99,21 +107,21 @@ O SonarCloud desempenha um papel crucial nesse modelo, fornecendo suporte contí
 
 Esse modelo integrado reflete uma abordagem robusta para a qualidade, combinando planejamento estratégico, uso eficiente de ferramentas e monitoramento contínuo, promovendo produtos confiáveis e alinhados às demandas do mercado.
 
-
 ### Métricas para o produto
 
 O uso de métricas permite identificar subcaracterísticas associadas e avaliar a qualidade do produto. Essa análise também possibilita medir a produtividade do projeto, gerando resultados que influenciam as decisões de desenvolvimento. Com base nas métricas especificadas no SonarCloud e Q-Rapids, além dos dados coletados, foram definidos os valores mínimos aceitáveis para cada métrica no projeto Sentinela, conforme mostrado na tabela abaixo.
 
+### Valores de Referência para as Métricas utilizadas
 
-| Métrica                      | Descrição                                                                                                                                               |
-| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Complexity**                | Mede a complexidade do código, geralmente baseada na quantidade de caminhos possíveis no código. Valores mais baixos indicam código mais simples e de fácil manutenção. A meta é manter a complexidade abaixo de 10 para facilitar a leitura e a manutenção do código. |
-| **Duplicated Lines Density (%)** | Mede a porcentagem de código duplicado no projeto. O código duplicado pode aumentar o esforço de manutenção e gerar inconsistências. A meta é que a densidade de linhas duplicadas não ultrapasse 5%, incentivando a reutilização de código e a eliminação de redundâncias. |
-| **Coverage**                  | Refere-se à porcentagem de código coberta por testes automatizados. Um valor acima de 80% é considerado ideal para garantir que a maioria do código seja testada, minimizando a chance de bugs não detectados. |
-| **Test Failures**             | Número de falhas nos testes automatizados. O objetivo é que não haja falhas nos testes (valor 0), indicando que o código está funcionando conforme o esperado e sem regressões. |
-| **Test Errors**               | Refere-se ao número de erros encontrados durante a execução dos testes, como falhas de configuração ou problemas inesperados. A meta é que o número de erros seja 0, garantindo que os testes sejam executados corretamente. |
-| **Security Rating**           | Classificação de segurança do código, geralmente em uma escala de A (melhor) a D (pior). A meta é que o rating de segurança seja A, indicando que o código está livre de vulnerabilidades críticas e segue boas práticas de segurança. |
-| **Satisfação do usuário**     | Mede a satisfação dos usuários finais com o produto, geralmente coletada por meio de pesquisas ou feedbacks diretos. A meta é que a satisfação esteja acima de 3 (em uma escala de 1 a 5), refletindo que os usuários estão satisfeitos com o funcionamento e a experiência do produto. |
+| Métrica                      | Valor de Referência |
+| ---------------------------- | ------------------ |
+| **Complexity**                | < 10 por função |
+| **Duplicated Lines Density (%)** | Entre 10% e 30% |
+| **Coverage**                  | > 60% |
+| **Densidade de Duplicidade**  | < 5% |
+| **Fast Tests**                | < 300000 microssegundos |
+
+Esses valores foram definidos com base em referências do modelo Q-Rapids e boas práticas do setor, garantindo um alto padrão de qualidade no desenvolvimento do software.
 
 
 ## Histórico de Versões
