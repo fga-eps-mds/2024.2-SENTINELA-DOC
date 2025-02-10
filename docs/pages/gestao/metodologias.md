@@ -1,6 +1,11 @@
 # Metodologia de Trabalho da Equipe  
 
-Nossa equipe adotou uma metodologia híbrida, combinando elementos do Scrum, Extreme Programming (XP), Kanban e práticas do PMBOK, com o objetivo de garantir um desenvolvimento eficiente e a entrega de um produto de alta qualidade. Essa abordagem permitiu adaptar metodologias consolidadas às necessidades específicas do projeto, promovendo organização, comunicação e melhoria contínua.
+Nossa equipe adotou uma **metodologia híbrida**, combinando elementos de **Scrum**, **Extreme Programming (XP)**, **Kanban**, **Lean Inception** e práticas do **PMBOK**, com o objetivo de garantir um desenvolvimento ágil e a entrega de um produto de alta qualidade. Essa abordagem integrada permite adaptar metodologias consolidadas às necessidades específicas do projeto, promovendo uma comunicação eficiente, organização e melhoria contínua. Cada uma dessas metodologias complementa e reforça as demais, formando um conjunto coeso que facilita o gerenciamento e a execução do trabalho.
+
+## Lean Inception
+
+O **Lean Inception** foi utilizado no início do projeto para alinhar expectativas, identificar as prioridades e garantir que todos os membros da equipe compreendessem claramente os objetivos e escopo do produto. Essa abordagem contribui para que todos os envolvidos (stakeholders, desenvolvedores e usuários) compartilhem a mesma visão e trabalhem de forma colaborativa desde o começo. Durante a fase de **Lean Inception**, as decisões estratégicas sobre funcionalidades, MVP (Produto Mínimo Viável) e o roadmap foram feitas em conjunto, permitindo que o desenvolvimento seguisse um direcionamento claro e focado. Ao integrar o Lean Inception com as demais metodologias, conseguimos um ciclo de feedback rápido e constante alinhamento entre as equipes e os stakeholders, o que assegura que o produto final atenda às expectativas e necessidades dos usuários.
+
 
 ## Scrum
 
@@ -16,7 +21,7 @@ Para visualizar o fluxo de trabalho e evitar gargalos, utilizamos o **Kanban**, 
 
 ## PMBOK
 
-O **PMBOK** complementou nossa abordagem ágil, trazendo práticas de gerenciamento de projetos para áreas como escopo, custo e riscos. O **escopo** foi cuidadosamente gerenciado pelos **Scrum Masters**, com acompanhamento do **Product Owner (PO)**, e os **riscos** foram monitorados semanalmente, com respostas planejadas para mitigar impactos potenciais. O **custo** do projeto foi avaliado regularmente, garantindo uma visão clara do orçamento ao longo do desenvolvimento.
+O **PMBOK** complementou nossa abordagem ágil, trazendo práticas de gerenciamento de projetos para áreas como escopo, custo e riscos. O **escopo** foi cuidadosamente gerenciado pelos **Scrum Masters**, com acompanhamento do **Product Owner (PO)**, e os **riscos** foram monitorados semanalmente, com respostas planejadas para mitigar impactos potenciais. O **custo** do projeto foi avaliado regularmente, garantindo uma visão clara do orçamento ao longo do desenvolvimento. O PMBOK foi uma estrutura essencial para a governança do projeto, fornecendo as bases para um gerenciamento estruturado e eficaz, sem comprometer a agilidade das entregas.
 
 ## Ferramentas Utilizadas
 
@@ -29,6 +34,7 @@ O uso de ferramentas específicas também foi essencial para o sucesso do projet
 |-------------------------|------------|-----------------|  
 | Criação do documento    | 08/12/2024 | Daniela Soares |  
 | Revisão do documento    | 08/12/2024 | Clara Marcelino |
+| Atualização do documento    | 09/02/2025 | Daniela Soares |
 
 
 

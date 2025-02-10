@@ -177,7 +177,7 @@ A estratégia de implantação inclui:
 
 - Arquitetura - 2024.1 - SENTINELA. Disponível em: <https://fga-eps-mds.github.io/2024.1-SENTINELA-DOC/gestao/arquitetura/>. Acesso em: 9 dez. 2024.
 
-- Compreender Estratégias de Implantação. Disponível em: (https://docs.oracle.com/pt-br/solutions/plan-mad-strats-devops/understand-depoyment-architectures.html#GUID-D0B793EE-1E28-42F5-BCCB-9E1465E85886) Acesso em: 9 FEV. 2025.
+- Compreender Estratégias de Implantação. Disponível em: <https://docs.oracle.com/pt-br/solutions/plan-mad-strats-devops/understand-depoyment-architectures.html#GUID-D0B793EE-1E28-42F5-BCCB-9E1465E85886> Acesso em: 9 FEV. 2025.
 
 ### **Histórico de Versões**
 
