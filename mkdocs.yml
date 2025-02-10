@@ -25,6 +25,7 @@ nav:
       - Entregas e roadmap: pages/gestao/Entregas-e-roadmap.md
       - EVM: pages/gestao/EVM.md
       - Histórias Planejadas X Aceitas Pelos POs: pages/gestao/Histórias-planejadasXaceitaspelos-POs.md
+      - Execução das pipelines de CI e CD: pages/gestao/Execução-das-pipelines-CI-e-CD.md
   - Protótipos:
       - Alta Fidelidade: pages/prototipos/alta-fidelidade.md
   - Equipe:
