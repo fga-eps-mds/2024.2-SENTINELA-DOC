@@ -8,6 +8,9 @@ Essa abordagem modular, com cada microsserviço gerenciando seu próprio banco d
 
 Nesse documento será apresentado a arquitetura do projeto e, por não haver nenhuma mudança na arquitetura em relação ao semestre de 2024.1, iremos manter os mesmos diagramas.
 
+## Diagrama de relações dos microsserviços, tecnologias e dispositivos
+
+<img src="https://raw.githubusercontent.com/fga-eps-mds/2024.2-SENTINELA-DOC/main/docs/assets/Diagrama.png">
 
 ## Estrutura da Arquitetura
 
