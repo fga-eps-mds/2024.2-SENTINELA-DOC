@@ -110,7 +110,7 @@ Caso exista maior interesse sobre a metodologia Agile EVM, o material referente 
 
 O processo de monitoramento do projeto se iniciou durante a release 1. Com os custos do projeto já relatados no documento de Custos.
 
-<iframe width="800" height="300" src="https://docs.google.com/spreadsheets/d/1YwVDR6rTVSiXeyPFe3dFgfc3uppEwnWIbtUq1g6CdAI/edit?gid=518402925#gid=518402925"></iframe>
+<iframe width="800" height="500" src="https://docs.google.com/spreadsheets/d/1YwVDR6rTVSiXeyPFe3dFgfc3uppEwnWIbtUq1g6CdAI/edit?gid=518402925#gid=518402925"></iframe>
 
 # Análise das Major Releases
 
