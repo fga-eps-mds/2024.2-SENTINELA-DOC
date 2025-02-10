@@ -1,25 +1,18 @@
 # Quadro de Conhecimento
 
-A seguir o quadro de conhecimento de Toda a equipe após a fase dos dojos de conhecimento.
+Ao longo do desenvolvimento do sistema, realizamos duas avaliações do nosso nível de conhecimento técnico em diferentes momentos: antes do início do desenvolvimento e durante a implementação das funcionalidades. O objetivo dessa análise foi identificar as áreas em que a equipe possuía mais domínio e aquelas que exigiam maior aprofundamento, permitindo uma melhor distribuição das tarefas e um aprendizado mais direcionado.
+
+As tecnologias avaliadas foram Git, HTML, CSS, JavaScript, React, Banco de Dados, Testes, Docker e Figma. No primeiro levantamento, a equipe já possuía um conhecimento razoável sobre controle de versão com Git, desenvolvimento web com HTML, CSS e JavaScript, e utilização do Figma para prototipação. Entretanto, foi identificada uma dificuldade significativa na parte de testes, o que poderia comprometer a qualidade do código e a confiabilidade do sistema.
+
+Diante desse cenário, os alunos de Engenharia de Produto de Software (EPS), que tinham mais experiência com processos e qualidade de software, assumiram inicialmente essa parte do desenvolvimento, enquanto os alunos de Métodos de Desenvolvimento de Software (MDS) focaram em aprimorar seu conhecimento nessa área.
+
+No segundo levantamento do quadro de conhecimento, já durante a execução do projeto, observamos uma evolução significativa, especialmente na área de testes. Ao final do desenvolvimento, os alunos de MDS já estavam contribuindo com a escrita e execução de testes.
 
 # Matriz de Competências
 
-| Nome                | Git | HTML | CSS | Javascript | React | Banco de Dados | Testes | Docker | Figma |
-|---------------------|-----|------|-----|------------|-------|----------------|--------|--------|-------|
-| **Clara (EPS)**     | 5   | 5    | 5   | 4          | 5     | 4              | 4      | 2      | 5     |
-| **Daniela (EPS)**   | 5   | 5    | 5   | 4          | 4     | 3              | 3      | 2      | 5     |
-| **Guilherme Peixoto (EPS)** | 5   | 5    | 4   | 4          | 3     | 5              | 2      | 5      | 4     |
-| **Dannyeclisson (MDS)** | 4   | 4    | 3   | 3          | 3     | 3              | 1      | 4      | 5     |
-| **Eduardo (MDS)**   | 2   | 1    | 1   | 3          | 2     | 2              | 1      | 1      | 2     |
-| **Guilherme Moura (MDS)** | 3   | 2    | 2   | 2          | 2     | 1              | 1      | 1      | 2     |
-| **Ígor (MDS)**      | 3   | 3    | 2   | 2          | 2     | 1              | 1      | 1      | 2     |
-| **João Igor (MDS)** | 2   | 3    | 3   | 2          | 2     | 1              | 1      | 1      | 2     |
-| **Jorge Henrique (MDS)** | 2   | 3    | 3   | 2          | 3     | 1              | 1      | 1      | 3     |
-| **Mariana Martins (MDS)** | 2   | 3    | 3   | 2          | 2     | 1              | 1      | 1      | 3     |
-| **Rodrigo (MDS)**   | 3   | 4    | 4   | 3          | 4     | 2              | 1      | 1      | 4     |
-| **Yzabella (MDS)**  | 2   | 3    | 3   | 2          | 2     | 1              | 1      | 1      | 2     |
+<iframe width="800" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLzlwWneBMfNz4z2iVdM9M20e0AD3I2ebSi1y0aU2YM9QfoFKzgQketbDZBf7cuUhLZsrOH2QQZKP5/pubhtml?gid=1659845836&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
----
+<iframe width="800" height="450" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRLzlwWneBMfNz4z2iVdM9M20e0AD3I2ebSi1y0aU2YM9QfoFKzgQketbDZBf7cuUhLZsrOH2QQZKP5/pubhtml?gid=1154491265&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 # Níveis de Competência
 
@@ -37,3 +30,4 @@ A seguir o quadro de conhecimento de Toda a equipe após a fase dos dojos de con
 | **Versão** | **Nome da Versão**      | **Data**      | **Responsável**         | **Descrição/Alterações**                                 |
 |------------|-------------------------|---------------|-------------------------|----------------------------------------------------------|
 |   1.0      | Criação do documento    | 08/12/2024    |  Daniela Soares          | Criação do documento   
+|   2.0      | Adição do link da planilha    | 08/02/2024    |  Daniela Soares          | Criação do documento   
