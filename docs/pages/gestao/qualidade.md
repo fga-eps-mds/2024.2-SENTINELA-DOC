@@ -14,6 +14,10 @@ Após a conclusão do desenvolvimento de cada funcionalidade, foram realizados t
 
 Para monitorar e garantir a qualidade técnica do projeto, cada serviço desenvolvido foi integrado com a ferramenta SonarQube, utilizando a interface SonarCloud para maior clareza e controle das métricas de qualidade. Essa integração forneceu uma visão abrangente e em tempo real do desempenho do código, possibilitando a detecção precoce de problemas e garantindo a entrega de um software robusto e alinhado aos padrões estabelecidos.
 
+A estruturação para a observação da qualidade do produto segue um modelo baseado na ISO 25010, categorizando diferentes aspectos da qualidade em características e fatores específicos. Essa abordagem permite uma avaliação detalhada e objetiva do software, garantindo que métricas relevantes sejam monitoradas continuamente. No projeto, a manutenibilidade é avaliada por meio das métricas de complexidade, comentários e duplicação, garantindo que o código seja compreensível e fácil de modificar. Já a confiabilidade é analisada com base nos fatores Testing Status e Testing Performance, representados pelas métricas Test Success e Fast Tests, assegurando que o software funcione corretamente e que os testes sejam executados de forma eficiente. Além disso, a cobertura de código desempenha um papel essencial, verificando a extensão dos testes automatizados para garantir uma validação abrangente das funcionalidades. Essa estrutura de observação permite uma abordagem sistemática e iterativa para o controle da qualidade, facilitando a identificação precoce de problemas e a implementação de melhorias contínuas.
+
+Foi desenvolvido um notebook com tais métricas, que pode ser acessaado por esse [link](https://github.com/fga-eps-mds/2024.2-SENTINELA-DOC/blob/main/analytics/internal_quality_analysis-sonarqube.ipynb).
+
 ## Métricas Monitoradas e Práticas de Garantia de Qualidade  
 
 O monitoramento de métricas e a implementação de práticas estruturadas foram fundamentais para assegurar a qualidade do projeto. Dentre as principais métricas e estratégias adotadas, destacam-se:  
@@ -107,9 +111,20 @@ O SonarCloud desempenha um papel crucial nesse modelo, fornecendo suporte contí
 
 Esse modelo integrado reflete uma abordagem robusta para a qualidade, combinando planejamento estratégico, uso eficiente de ferramentas e monitoramento contínuo, promovendo produtos confiáveis e alinhados às demandas do mercado.
 
-### Métricas para o produto
 
-O uso de métricas permite identificar subcaracterísticas associadas e avaliar a qualidade do produto. Essa análise também possibilita medir a produtividade do projeto, gerando resultados que influenciam as decisões de desenvolvimento. Com base nas métricas especificadas no SonarCloud e Q-Rapids, além dos dados coletados, foram definidos os valores mínimos aceitáveis para cada métrica no projeto Sentinela, conforme mostrado na tabela abaixo.
+## Métricas para o Produto  
+
+O uso de métricas permite identificar subcaracterísticas associadas e avaliar a qualidade do produto. Essa análise também possibilita medir a produtividade do projeto, gerando resultados que influenciam as decisões de desenvolvimento. No projeto, analisamos diferentes métricas que pertencem a fatores e características específicas da qualidade do software, conforme a ISO 25010.
+
+- **Complexidade, Comentário e Duplicação**: Essas métricas pertencem ao **fator de qualidade de código**, que faz parte da **característica de manutenibilidade**. Elas permitem avaliar a facilidade de manutenção e compreensão do código, reduzindo riscos de retrabalho e melhorando a eficiência do desenvolvimento.
+
+- **Test Success**: Essa métrica pertence ao **fator Testing Status**, que faz parte da **característica de confiabilidade**. Ela mede a taxa de sucesso dos testes automatizados, garantindo que o software funcione corretamente sem falhas inesperadas.
+
+- **Fast Tests**: Associada ao **fator Testing Performance**, essa métrica também pertence à **característica de confiabilidade** e mede o tempo de execução dos testes para assegurar que a validação do código ocorra de forma ágil e eficiente.
+
+- **Cobertura de Código**: Mede a porcentagem do código que é testado por testes automatizados. Uma cobertura adequada garante que a maioria das funcionalidades seja testada, reduzindo a probabilidade de falhas em produção.
+
+Com base nas métricas especificadas no Q-Rapids, além dos dados coletados, foram definidos os valores mínimos aceitáveis para cada métrica no projeto Sentinela, conforme mostrado na tabela abaixo.
 
 ### Valores de Referência para as Métricas utilizadas
 
@@ -121,8 +136,7 @@ O uso de métricas permite identificar subcaracterísticas associadas e avaliar 
 | **Densidade de Duplicidade**  | < 5% |
 | **Fast Tests**                | < 300000 microssegundos |
 
-Esses valores foram definidos com base em referências do modelo Q-Rapids e boas práticas do setor, garantindo um alto padrão de qualidade no desenvolvimento do software.
-
+Esses valores foram definidos com base em referências do modelo Q-Rapids e no relatório do Google de boas práticas de cobertura de código, garantindo um alto padrão de qualidade no desenvolvimento do software.
 
 ## Histórico de Versões
 
@@ -130,10 +144,12 @@ Esses valores foram definidos com base em referências do modelo Q-Rapids e boas
 | ---------------------------- | ---------- | --------------- |
 | Criação do documento         | 08/12/2024   | Daniela Soares |
 | Revisão do documento         | 08/12/2024  | Clara Marcelino |
-
+| Ajuste do planejamento de qualidade         | 08/01/2025  | Clara Marcelino |
 
 ## Referências
 
 [ISO/IEC 25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010)
 
 [Q-rapids](https://github.com/q-rapids)
+
+[GOOGLE. Code Coverage Best Practices](https://testing.googleblog.com/2020/08/code-coverage-best-practices.html)
