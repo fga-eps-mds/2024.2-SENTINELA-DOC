@@ -75,6 +75,12 @@ O monitoramento contínuo do projeto é uma atividade essencial, que envolve aco
 - Detectar riscos emergentes, gargalos ou falhas no projeto antes que se tornem críticos.
 - Desenvolver planos para corrigir problemas, como redistribuir recursos, ajustar cronogramas ou modificar entregáveis.
 
+
+### Comportamento dos Riscos Até o Momento
+Até agora, os riscos identificados no início do projeto têm se comportado de maneira previsível, com alguns sendo totalmente mitigados e outros apresentando desafios pontuais. Por exemplo, os riscos relacionados a **mudanças no escopo** e **problemas de integração entre sistemas** foram constantemente monitorados e ajustados de acordo com a evolução do projeto. A comunicação contínua entre as equipes e os stakeholders tem sido fundamental para reduzir os riscos organizacionais, como **falta de apoio dos interessados** e **falha de comunicação**. Embora alguns riscos ainda possam emergir conforme o projeto avança, o gerenciamento proativo e o acompanhamento regular têm permitido que os impactos negativos sejam minimizados, garantindo que o projeto continue a progredir conforme planejado.
+
+Na **Release 1**, ocorreram alguns desafios importantes. Um membro da equipe teve que ser removido do projeto, o que resultou em uma redução na capacidade de desenvolvimento. Além disso, enfrentamos dificuldades de comunicação com os **Product Owners (POs)**, o que afetou a clareza nas decisões e direcionamento do projeto. Também houve **conflitos internos entre os membros da equipe de desenvolvimento**, que impactaram temporariamente a produtividade e o moral da equipe. Esses riscos foram identificados e, atualmente, estão sendo mitigados com reuniões de alinhamento mais frequentes e mediação de conflitos.
+
 ## Classificação dos Riscos
 
 
