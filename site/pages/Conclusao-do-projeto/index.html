@@ -9,6 +9,8 @@
       
       
       
+        <link rel="prev" href="../resultados/hipoteses-mvp/">
+      
       
       
       <link rel="icon" href="../../assets/sindpol-logo.png">
@@ -16,7 +18,7 @@
     
     
       
-        <title>Conclusão do projeto - Sentinela</title>
+        <title>Post mortem - Sentinela</title>
       
     
     
@@ -66,7 +68,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#conclusao-do-projeto" class="md-skip">
+        <a href="#conclusao-do-projeto-post-mortem" class="md-skip">
           Skip to content
         </a>
       
@@ -101,7 +103,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Conclusão do projeto
+              Post mortem
             
           </span>
         </div>
@@ -838,17 +840,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
         
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
@@ -862,7 +866,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             Resultados alcançados
@@ -911,6 +915,100 @@
 
               
             
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Post mortem
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Post mortem
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-deu-certo" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que deu certo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desafios-enfrentados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desafios enfrentados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desafios enfrentados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -938,6 +1036,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-deu-certo" class="md-nav__link">
+    <span class="md-ellipsis">
+      O que deu certo
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desafios-enfrentados" class="md-nav__link">
+    <span class="md-ellipsis">
+      Desafios enfrentados
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Desafios enfrentados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Histórico de Versões
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -951,7 +1090,56 @@
                   
 
 
-<h1 id="conclusao-do-projeto">Conclusão do projeto</h1>
+<h1 id="conclusao-do-projeto-post-mortem">Conclusão do Projeto - Post-Mortem</h1>
+<p>Este documento tem como objetivo registrar os principais aprendizados, desafios enfrentados e pendências do projeto para facilitar a continuidade do desenvolvimento no próximo semestre.</p>
+<h2 id="o-que-deu-certo">O que deu certo</h2>
+<ul>
+<li><strong>Integração Contínua e Qualidade do Código:</strong> A implementação do SonarCloud e a análise de métricas ajudaram a ter um bom nível de qualidade no desenvolvimento.</li>
+<li><strong>Processo de validação iterativa:</strong> A validação contínua das User Stories com o cliente permitiu ajustes rápidos e mais alinhados às necessidades do usuário.</li>
+<li><strong>Engajamento da equipe:</strong> O trabalho colaborativo e o uso de ferramentas como ZenHub facilitaram a organização das tarefas e o acompanhamento do progresso do projeto.</li>
+</ul>
+<h2 id="desafios-enfrentados">Desafios enfrentados</h2>
+<ul>
+<li>
+<p><strong>Banco de Dados inadequado:</strong> Durante o desenvolvimento, percebemos que o MongoDB não estava sendo adequado para o tipo de produto que estávamos criando. MongoDB é um banco de dados NoSQL, voltado para estruturas mais flexíveis e escaláveis, porém, o projeto exigia um modelo relacional mais estruturado para lidar com transações complexas e consistência nos dados. Como resultado, foi identificado que a migração para um banco de dados relacional seria mais coerente.</p>
+</li>
+<li>
+<p><strong>Processamento do arquivo retorno:</strong> O arquivo retorno atualmente está sendo usado para registro de quem está em dia com a mensalidade do sindicato, porém seu uso dever ser explorado para outras funcionalidades, sendo elas a atualização do histórico de contribuições a partir dos dados do arquivo e a implementação de um histórico dos arquivos retorno que foram subidos na plataforma.</p>
+</li>
+<li>
+<p><strong>Alteração na solicitação de benefícios:</strong> No meio do projeto, identificamos que a melhor forma de solicitar benefícios para os usuários seria por meio de encaminhamento ao sindicato, em vez de um processo automatizado pelo sistema. Isso se deu porque os benefícios possuem características altamente variáveis e requerem verificações manuais, tornando inviável uma abordagem padronizada. Como consequência, todas as histórias de usuários relacionadas ao épico "Solicitar Benefícios" foram removidas do escopo do projeto.</p>
+</li>
+<li>
+<p><strong>Dark Mode e acessibilidade:</strong> Com o objetivo de melhorar a experiência do usuário, foi identificada a necessidade de implementação do <strong>Dark Mode</strong> no sistema. Essa funcionalidade permitiria maior conforto visual, especialmente para usuários que utilizam o sistema por longos períodos ou que possuem sensibilidade à luz. No entanto, sua implementação ficou pendente devido a outras prioridades de desenvolvimento e a manifestação tardia do PO a respeito da mesma.</p>
+</li>
+<li>
+<p><strong>Padronização na exibição de movimentações financeiras:</strong> Durante o desenvolvimento, os usuários relataram que a exibição da listagem de movimentações financeiras não estava alinhada ao formato já existente na aba <strong>Extrato Bancário</strong>. Para garantir consistência na usabilidade e facilitar a navegação dos usuários, foi solicitado que as movimentações financeiras seguissem o mesmo padrão visual e organizacional. Essa mudança exige ajustes na interface e no modelo de dados para garantir que todas as informações relevantes sejam apresentadas de maneira uniforme.</p>
+</li>
+<li>
+<p><strong>Status "Aposentado" para sindicalizados:</strong> Atualmente, o sistema contempla apenas três status para sindicalizados: <strong>ativo, pendente e cancelado</strong>. No entanto, foi identificado que muitos sindicalizados passam para a categoria de "aposentado", o que não se encaixa nos status existentes.</p>
+</li>
+</ul>
+<h3 id="historico-de-versoes"><strong>Histórico de Versões</strong></h3>
+<table>
+<thead>
+<tr>
+<th><strong>Versão</strong></th>
+<th><strong>Nome da Versão</strong></th>
+<th><strong>Data</strong></th>
+<th><strong>Responsável</strong></th>
+<th><strong>Descrição/Alterações</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>09/02/2025</td>
+<td>Clara Marcelino</td>
+<td>Criação do documento</td>
+</tr>
+</tbody>
+</table>
 
 
 

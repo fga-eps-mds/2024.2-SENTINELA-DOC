@@ -39,3 +39,4 @@ nav:
   - Resultados alcançados:
     - Contribuição do projeto: pages/resultados/contribuicao.md
     - Validação das hipóteses de negócio: pages/resultados/hipoteses-mvp.md
+    - Post mortem: pages/Conclusao-do-projeto.md
