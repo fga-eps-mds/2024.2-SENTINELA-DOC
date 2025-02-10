@@ -1,6 +1,6 @@
 # Histórias Planejadas X Aceitas Pelos P.O.s
 
-Das Histórias Planejas as que foram entregues para aceitação dos POs foram:
+Das Histórias Planejadas as que foram entregues para aceitação dos POs foram:
 
 # Registro das User Stories (US) e Melhorias
 
