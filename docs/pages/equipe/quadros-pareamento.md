@@ -4,196 +4,21 @@ Para otimizar o aprendizado e promover a colaboração entre os membros da equip
 
 Abaixo estão os pares de pareamento entre EPS e MDS:
 
-### Pareamento EPS e MDS SPRINT 1
+ ## Pareamento EPS e MDS - Sprints
 
-- **Clara**  
-  - Rodrigo Ferreira do Amaral  
-  - Jorge Henrique  
-  - João Igor Pereira da Costa  
-
-- **Daniela**  
-  - Ígor Veras Daniel  
-  - Mariana Martins Silva  
-  - Dannyeclisson Rodrigo Martins da Costa  
-
-- **Guilherme Peixoto**  
-  - Eduardo Rodrigues Levenhagem  
-  - Guilherme Moura da Silva Neto  
-  - Yzabella Miranda Pimenta  
+| **Sprint** | **Clara**                                                         | **Daniela**                                         | **Guilherme Peixoto**                                    |
+|------------|-------------------------------------------------------------------|----------------------------------------------------|----------------------------------------------------------|
+| **Sprint 1** | Trio: Rodrigo Ferreira do Amaral & Jorge Henrique & João Igor Pereira da Costa & Yzabella Miranda Pimenta | Trio: Ígor Veras Daniel & Mariana Martins Silva & Dannyeclisson Rodrigo Martins da Costa | Dupla: Eduardo Rodrigues Levenhagem & Guilherme Moura da Silva Neto <br> Dupla: Yzabella Miranda Pimenta |
+| **Sprint 2** | Trio: Rodrigo Ferreira do Amaral & Jorge Henrique & João Igor Pereira da Costa & Yzabella Miranda Pimenta | Trio: Ígor Veras Daniel & Mariana Martins Silva & Dannyeclisson Rodrigo Martins da Costa | Trio: Eduardo Rodrigues Levenhagem & Guilherme Moura da Silva Neto & Yzabella Miranda Pimenta |
+| **Sprint 3** | Dupla: Rodrigo Ferreira do Amaral & Mariana Martins Silva <br> Dupla: João Igor Pereira da Costa & Yzabella Miranda Pimenta | Dupla: Ígor Veras Daniel & Guilherme Moura da Silva Neto <br> Dupla: Eduardo Rodrigues Levenhagem | Dupla: Dannyeclisson Rodrigo Martins da Costa & Jorge Henrique |
+| **Sprint 4** | Dupla: Rodrigo Ferreira do Amaral & Mariana Martins Silva <br> Dupla: João Igor Pereira da Costa & Yzabella Miranda Pimenta | Dupla: Ígor Veras Daniel & Guilherme Moura da Silva Neto <br> Dupla: Eduardo Rodrigues Levenhagem | Dupla: Dannyeclisson Rodrigo Martins da Costa & Jorge Henrique |
+| **Sprint 5** | Dupla: Rodrigo Ferreira do Amaral & Mariana Martins Silva <br> Dupla: João Igor Pereira da Costa & Yzabella Miranda Pimenta | Dupla: Ígor Veras Daniel & Guilherme Moura da Silva Neto <br> Dupla: Eduardo Rodrigues Levenhagem | Dupla: Dannyeclisson Rodrigo Martins da Costa & Jorge Henrique |
+| **Sprint 6** | Dupla: Rodrigo Ferreira do Amaral & Mariana Martins Silva <br> Dupla: João Igor Pereira da Costa & Yzabella Miranda Pimenta | Dupla: Ígor Veras Daniel & Guilherme Moura da Silva Neto <br> Dupla: Eduardo Rodrigues Levenhagem | Dupla: Dannyeclisson Rodrigo Martins da Costa & Jorge Henrique |
+| **Sprint 7** | Dupla: Rodrigo Ferreira do Amaral & Mariana Martins Silva <br> Dupla: João Igor Pereira da Costa & Yzabella Miranda Pimenta | Dupla: Ígor Veras Daniel & Guilherme Moura da Silva Neto <br> Dupla: Eduardo Rodrigues Levenhagem | Dupla: Dannyeclisson Rodrigo Martins da Costa & Jorge Henrique |
+| **Sprint 8** | Dupla: Rodrigo Ferreira do Amaral & Mariana Martins Silva <br> Dupla: João Igor Pereira da Costa & Yzabella Miranda Pimenta | Dupla: Ígor Veras Daniel & Guilherme Moura da Silva Neto <br> Dupla: Eduardo Rodrigues Levenhagem | Dupla: Dannyeclisson Rodrigo Martins da Costa & Jorge Henrique |
+| **Sprint 9** | Dupla: Rodrigo Ferreira do Amaral & Mariana Martins Silva <br> Dupla: João Igor Pereira da Costa & Yzabella Miranda Pimenta | Dupla: Ígor Veras Daniel & Guilherme Moura da Silva Neto <br> Dupla: Eduardo Rodrigues Levenhagem | Dupla: Dannyeclisson Rodrigo Martins da Costa & Jorge Henrique |
 
 
-
-  ### Pareamento EPS e MDS SPRINT 2
-
-- **Clara**  
-  - Rodrigo Ferreira do Amaral  
-  - Jorge Henrique  
-  - João Igor Pereira da Costa  
-
-- **Daniela**  
-  - Ígor Veras Daniel  
-  - Mariana Martins Silva  
-  - Dannyeclisson Rodrigo Martins da Costa  
-
-- **Guilherme Peixoto**  
-  - Eduardo Rodrigues Levenhagem  
-  - Guilherme Moura da Silva Neto  
-  - Yzabella Miranda Pimenta 
-
-  ### Pareamento EPS e MDS SPRINT 3
-
-- **Clara**  
-  - Dupla:
-    - Rodrigo Ferreira do Amaral
-    - Mariana Martins Silva  
-  - Dupla:
-    - João Igor Pereira da Costa    
-    - Yzabella Miranda Pimenta
-
-- **Daniela**
-  - Dupla:
-    - Ígor Veras Daniel
-    - Guilherme Moura da Silva Neto
-
-  - Eduardo Rodrigues Levenhagem
-
-- **Guilherme Peixoto**  
-- Dupla:
-    - Dannyeclisson Rodrigo Martins da Costa
-    - Jorge Henrique
-   
-
-  ### Pareamento EPS e MDS SPRINT 4
-
-- **Clara**  
-  - Dupla:
-    - Rodrigo Ferreira do Amaral
-    - Mariana Martins Silva  
-  - Dupla:
-    - João Igor Pereira da Costa    
-    - Yzabella Miranda Pimenta
-
-- **Daniela**  
-  - Dupla:
-    - Ígor Veras Daniel
-    - Guilherme Moura da Silva Neto
-
-  - Eduardo Rodrigues Levenhagem
-
-- **Guilherme Peixoto**  
-  - Dupla:
-    - Dannyeclisson Rodrigo Martins da Costa
-    - Jorge Henrique
-  
-
-  ### Pareamento EPS e MDS SPRINT 5
-
-- **Clara**  
-  - Dupla:
-    - Rodrigo Ferreira do Amaral
-    - Mariana Martins Silva  
-  - Dupla:
-    - João Igor Pereira da Costa    
-    - Yzabella Miranda Pimenta
-
-- **Daniela**  
-  - Dupla:
-    - Ígor Veras Daniel
-    - Guilherme Moura da Silva Neto
-
-  - Eduardo Rodrigues Levenhagem
-
-- **Guilherme Peixoto**  
-  - Dupla:
-    - Dannyeclisson Rodrigo Martins da Costa
-    - Jorge Henrique
-
-  ### Pareamento EPS e MDS SPRINT 6
-
-  - **Clara**  
-  - Dupla:
-    - Rodrigo Ferreira do Amaral
-    - Mariana Martins Silva  
-  - Dupla:
-    - João Igor Pereira da Costa    
-    - Yzabella Miranda Pimenta
-
-- **Daniela**  
-  - Dupla:
-    - Ígor Veras Daniel
-    - Guilherme Moura da Silva Neto
-
-  - Eduardo Rodrigues Levenhagem
-
-- **Guilherme Peixoto**  
-  - Dupla:
-    - Dannyeclisson Rodrigo Martins da Costa
-    - Jorge Henrique
-
-  ### Pareamento EPS e MDS SPRINT 7
-
-  - **Clara**  
-  - Dupla:
-    - Rodrigo Ferreira do Amaral
-    - Mariana Martins Silva  
-  - Dupla:
-    - João Igor Pereira da Costa    
-    - Yzabella Miranda Pimenta
-
-- **Daniela**  
-  - Dupla:
-    - Ígor Veras Daniel
-    - Guilherme Moura da Silva Neto
-
-  - Eduardo Rodrigues Levenhagem
-
-- **Guilherme Peixoto**  
-  - Dupla:
-    - Dannyeclisson Rodrigo Martins da Costa
-    - Jorge Henrique
-
-  ### Pareamento EPS e MDS SPRINT 8
-
-  - **Clara**  
-  - Dupla:
-    - Rodrigo Ferreira do Amaral
-    - Mariana Martins Silva  
-  - Dupla:
-    - João Igor Pereira da Costa    
-    - Yzabella Miranda Pimenta
-
-- **Daniela**  
-  - Dupla:
-    - Ígor Veras Daniel
-    - Guilherme Moura da Silva Neto
-
-  - Eduardo Rodrigues Levenhagem
-
-- **Guilherme Peixoto**  
-  - Dupla:
-    - Dannyeclisson Rodrigo Martins da Costa
-    - Jorge Henrique
-
-  ### Pareamento EPS e MDS SPRINT 9
-  - **Clara**  
-  - Dupla:
-    - Rodrigo Ferreira do Amaral
-    - Mariana Martins Silva  
-  - Dupla:
-    - João Igor Pereira da Costa    
-    - Yzabella Miranda Pimenta
-
-- **Daniela**  
-  - Dupla:
-    - Ígor Veras Daniel
-    - Guilherme Moura da Silva Neto
-
-  - Eduardo Rodrigues Levenhagem
-
-- **Guilherme Peixoto**  
-  - Dupla:
-    - Dannyeclisson Rodrigo Martins da Costa
-    - Jorge Henrique
 
 ### **Histórico de Versões**
 
