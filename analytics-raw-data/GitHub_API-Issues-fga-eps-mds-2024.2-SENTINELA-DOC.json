@@ -341,15 +341,15 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": null,
         "assignees": [],
         "milestone": null,
         "comments": 0,
         "created_at": "2025-01-29T16:21:16Z",
-        "updated_at": "2025-01-29T16:23:44Z",
-        "closed_at": null,
+        "updated_at": "2025-02-09T23:19:40Z",
+        "closed_at": "2025-02-09T23:19:40Z",
         "author_association": "NONE",
         "sub_issues_summary": {
             "total": 0,
@@ -358,7 +358,27 @@
         },
         "active_lock_reason": null,
         "body": "A listagem de movimenta\u00e7\u00f5es financeiras devem seguir o mesmo padr\u00e3o de visualiza\u00e7\u00e3o localizado na aba extrato banc\u00e1rio. \u00c9 poss\u00edvel v\u00ea-lo no prot\u00f3tipo abaixo:\nhttps://www.figma.com/proto/fp984nJmbR3xHAqVM7ixsH/Prot%C3%B3tipos-2024.2?node-id=6010-4175&p=f&t=wclpwlO3zsaGWU0R-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1",
-        "closed_by": null,
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/149/reactions",
             "total_count": 0,
@@ -373,7 +393,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/149/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/148",
@@ -1006,7 +1026,7 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": {
             "login": "daniso0412",
@@ -1055,8 +1075,8 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2025-01-11T20:24:16Z",
-        "updated_at": "2025-02-09T14:22:15Z",
-        "closed_at": null,
+        "updated_at": "2025-02-09T20:31:54Z",
+        "closed_at": "2025-02-09T20:31:54Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -1065,7 +1085,27 @@
         },
         "active_lock_reason": null,
         "body": "Elaborar templates para User Stories (US), melhorias, pull requests e defeitos.",
-        "closed_by": null,
+        "closed_by": {
+            "login": "daniso0412",
+            "id": 170635252,
+            "node_id": "U_kgDOCiuv9A",
+            "avatar_url": "https://avatars.githubusercontent.com/u/170635252?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/daniso0412",
+            "html_url": "https://github.com/daniso0412",
+            "followers_url": "https://api.github.com/users/daniso0412/followers",
+            "following_url": "https://api.github.com/users/daniso0412/following{/other_user}",
+            "gists_url": "https://api.github.com/users/daniso0412/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/daniso0412/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/daniso0412/subscriptions",
+            "organizations_url": "https://api.github.com/users/daniso0412/orgs",
+            "repos_url": "https://api.github.com/users/daniso0412/repos",
+            "events_url": "https://api.github.com/users/daniso0412/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/daniso0412/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/142/reactions",
             "total_count": 0,
@@ -1080,7 +1120,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/142/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/141",
@@ -1776,7 +1816,7 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": {
             "login": "clara-ribeiro",
@@ -1825,8 +1865,8 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2025-01-11T20:19:20Z",
-        "updated_at": "2025-01-11T20:31:22Z",
-        "closed_at": null,
+        "updated_at": "2025-02-09T23:18:50Z",
+        "closed_at": "2025-02-09T23:18:50Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -1835,7 +1875,27 @@
         },
         "active_lock_reason": null,
         "body": null,
-        "closed_by": null,
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/135/reactions",
             "total_count": 0,
@@ -1850,7 +1910,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/135/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/134",
@@ -2332,7 +2392,7 @@
                 "description": ""
             }
         ],
-        "state": "open",
+        "state": "closed",
         "locked": false,
         "assignee": {
             "login": "clara-ribeiro",
@@ -2381,8 +2441,8 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2025-01-11T19:52:34Z",
-        "updated_at": "2025-01-11T20:32:07Z",
-        "closed_at": null,
+        "updated_at": "2025-02-09T23:18:46Z",
+        "closed_at": "2025-02-09T23:18:46Z",
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
             "total": 0,
@@ -2391,7 +2451,27 @@
         },
         "active_lock_reason": null,
         "body": "Remover m\u00e9tricas de acessos ao site e usu\u00e1rios ativos que dependem diretamente do cliente.",
-        "closed_by": null,
+        "closed_by": {
+            "login": "clara-ribeiro",
+            "id": 64803940,
+            "node_id": "MDQ6VXNlcjY0ODAzOTQw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/64803940?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/clara-ribeiro",
+            "html_url": "https://github.com/clara-ribeiro",
+            "followers_url": "https://api.github.com/users/clara-ribeiro/followers",
+            "following_url": "https://api.github.com/users/clara-ribeiro/following{/other_user}",
+            "gists_url": "https://api.github.com/users/clara-ribeiro/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/clara-ribeiro/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/clara-ribeiro/subscriptions",
+            "organizations_url": "https://api.github.com/users/clara-ribeiro/orgs",
+            "repos_url": "https://api.github.com/users/clara-ribeiro/repos",
+            "events_url": "https://api.github.com/users/clara-ribeiro/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/clara-ribeiro/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
         "reactions": {
             "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/130/reactions",
             "total_count": 0,
@@ -2406,7 +2486,7 @@
         },
         "timeline_url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/130/timeline",
         "performed_via_github_app": null,
-        "state_reason": null
+        "state_reason": "completed"
     },
     {
         "url": "https://api.github.com/repos/fga-eps-mds/2024.2-SENTINELA-DOC/issues/129",
@@ -5688,7 +5768,7 @@
         "id": 2726524460,
         "node_id": "I_kwDONEMnxM6ig3Ys",
         "number": 105,
-        "title": "Bugfix2: Gerenciar perfis Usu\u00e1rios",
+        "title": "Bugfix2: Corre\u00e7\u00e3o do Gerenciamento de perfis Usu\u00e1rios",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -5860,7 +5940,7 @@
         "milestone": null,
         "comments": 0,
         "created_at": "2024-12-09T09:47:33Z",
-        "updated_at": "2025-01-28T18:01:44Z",
+        "updated_at": "2025-02-09T22:17:18Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
@@ -7878,7 +7958,7 @@
         "id": 2702869757,
         "node_id": "I_kwDONEMnxM6hGoT9",
         "number": 88,
-        "title": "BugFix1: Melhorias do cadastro dos usu\u00e1rios",
+        "title": "BugFix1: Corre\u00e7\u00e3o do cadastro dos usu\u00e1rios",
         "user": {
             "login": "clara-ribeiro",
             "id": 64803940,
@@ -8029,7 +8109,7 @@
         "milestone": null,
         "comments": 1,
         "created_at": "2024-11-28T17:38:04Z",
-        "updated_at": "2025-01-28T01:27:57Z",
+        "updated_at": "2025-02-09T22:16:09Z",
         "closed_at": null,
         "author_association": "CONTRIBUTOR",
         "sub_issues_summary": {
